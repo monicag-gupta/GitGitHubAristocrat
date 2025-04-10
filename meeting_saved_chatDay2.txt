@@ -1,0 +1,398 @@
+20:20:07 From K B Prabha to Everyone:
+	https://forms.office.com/r/UQJtD45Wi9
+20:31:39 From Monica Gupta to Everyone:
+	Attendance Link:
+20:31:41 From Monica Gupta to Everyone:
+	https://forms.office.com/r/UQJtD45Wi9
+20:32:09 From K B Prabha to Everyone:
+	Good evening all!  As is customary, please enter your training attendance in the below link.  	https://forms.office.com/r/UQJtD45Wi9	Monica will also share the link again for those who join in late or have not filled in at the start of the training.	Many thanks
+20:37:20 From Monica Gupta to Everyone:
+	Here are some commonly used Git branch commands:	1. Listing Branches	View all branches:	git branch	View all branches (including remote branches):	git branch -a	2. Creating Branches	Create a new branch:	git branch <branch-name>	Create and switch to a new branch:	git checkout -b <branch-name>	Create a new branch from a specific commit:	git branch <branch-name> <commit-hash>	3. Switching Branches	Switch to an existing branch:	git checkout <branch-name>	Switch to an existing branch (Git 2.23+):	git switch <branch-name>
+20:37:30 From Praveen Yadav to Everyone:
+	Reacted to Here are some common... with "👍"
+20:37:53 From Monica Gupta to Everyone:
+	4. Deleting Branches	Delete a local branch:	git branch -d <branch-name>	Force delete a local branch (if it has unmerged changes):	git branch -D <branch-name>	Delete a remote branch:	git push origin --delete <branch-name>	5. Merging Branches	Merge a branch into the current branch:	git merge <branch-name>	Merge and create a commit automatically:	git merge --no-ff <branch-name>	6. Rebasing Branches	Rebase the current branch onto another branch:	git rebase <branch-name>	Rebase interactively (modify commits before merging):	git rebase -i <branch-name>
+20:38:03 From Monica Gupta to Everyone:
+	7. Tracking Remote Branches	Create a new local branch that tracks a remote branch:	git checkout -b <branch-name> origin/<branch-name>	Set an existing branch to track a remote branch:	git branch --set-upstream-to=origin/<branch-name>	8. Renaming Branches	Rename the current branch:	git branch -m <new-name>	Rename a different branch:	git branch -m <old-name> <new-name>	9. Pushing and Pulling Branches	Push a new branch to the remote repository:	git push -u origin <branch-name>	Pull changes from the remote branch:	git pull origin <branch-name>
+20:44:21 From Monica Gupta to Everyone:
+	git checkout -b feature-branch
+20:44:53 From Monica Gupta to Everyone:
+	hello.txt
+20:45:18 From Monica Gupta to Everyone:
+	Hello, World!
+20:45:43 From Monica Gupta to Everyone:
+	git add hello.txt
+20:46:24 From Monica Gupta to Everyone:
+	git commit -m "Added hello.txt file"
+20:46:34 From Monica Gupta to Everyone:
+	ugit branch
+20:46:39 From Monica Gupta to Everyone:
+	git branch
+20:47:06 From Monica Gupta to Everyone:
+	git checkout main
+20:48:03 From Monica Gupta to Everyone:
+	git merge feature-branch
+20:48:36 From Monica Gupta to Everyone:
+	git branch -d feature-branch
+20:49:13 From Monica Gupta to Everyone:
+	git branch -D feature-branch
+20:50:11 From Monica Gupta to Everyone:
+	git remote add origin https://github.com/monicag-gupta/Project111.git
+20:53:33 From Monica Gupta to Everyone:
+	git checkout -b develop main
+20:57:53 From Monica Gupta to Everyone:
+	git checkout -b dev-branch
+20:57:54 From Pravesh Kumar Singh to Everyone:
+	done
+21:00:01 From Monica Gupta to Everyone:
+	Indu +1
+21:01:07 From Monica Gupta to Everyone:
+	git push -u origin dev-branch
+21:02:11 From Monica Gupta to Everyone:
+	git push origin --delete dev-branch
+21:03:38 From Monica Gupta to Everyone:
+	git branch -m new-branch-dev
+21:04:36 From Monica Gupta to Everyone:
+	git branch -m new-branch-dev dev-branch
+21:05:13 From Mark Zulkiewicz to Everyone:
+	done
+21:05:13 From Bryan Wong to Everyone:
+	done
+21:05:13 From Apoorv Dixit to Everyone:
+	done
+21:05:36 From Mariyan Georgiev to Everyone:
+	done
+21:05:37 From Sean Sweitzer to Everyone:
+	Done
+21:05:51 From Kamal Bhatt to Everyone:
+	Done
+21:06:42 From Monica Gupta to Everyone:
+	git checkout -b dev-branch
+21:07:14 From Pravesh Kumar Singh to Everyone:
+	done
+21:08:43 From Indu Singh to Everyone:
+	done
+21:15:05 From Monica Gupta to Everyone:
+	TBD Workflow Example	1. Clone repository and switch to main	git checkout main	git pull origin main	2. Make changes & commit frequently	git commit -am "Added validation to login"	3. Push changes and integrate continuously	git push origin main
+21:15:26 From Monica Gupta to Everyone:
+	git checkout main
+21:16:16 From Monica Gupta to Everyone:
+	git pull origin main
+21:17:29 From Monica Gupta to Everyone:
+	git push origin main
+21:24:05 From Monica Gupta to Everyone:
+	git checkout -b feature-Mergedlogin
+21:24:44 From Monica Gupta to Everyone:
+	mergelogin.js
+21:25:03 From Monica Gupta to Everyone:
+	Login feature
+21:25:43 From Monica Gupta to Everyone:
+	git add mergelogin.js
+21:26:19 From Monica Gupta to Everyone:
+	git commit -am "Added merged login feature"
+21:27:01 From Monica Gupta to Everyone:
+	git checkout main
+21:27:39 From Monica Gupta to Everyone:
+	git merge --no-ff feature-Mergedlogin
+21:27:40 From Alejandro Gomez to Everyone:
+	I have to leave the meeting as I have a family member in the hospital this week, and need to go attend to them at this hour , Thank you , will see the course later and make the steps
+21:27:56 From Azad Singh to Everyone:
+	Reacted to "I have to leave the ..." with 👍
+21:28:02 From Pravesh Kumar Singh to Everyone:
+	Reacted to "I have to leave the ..." with 👍
+21:28:10 From Alejandro Gomez to Everyone:
+	thanks
+21:29:04 From Monica Gupta to Everyone:
+	gupta.monicag@gmail.com
+21:29:18 From Pankaj Singh Bhandari to Everyone:
+	Hi Monica, I need to drop too for another meeting... I'll rejoin after 1/2 hour.
+21:30:07 From Monica Gupta to Everyone:
+	git log --graph --oneline --decorate --all --branches > aa.txt
+21:33:40 From Ravi Rai to Everyone:
+	I am able to see
+21:33:42 From Monica Gupta to Everyone:
+	git merge --no-ff feature-Mergedlogin -m "Merge branch 'feature-branch’"
+21:40:35 From Monica Gupta to Everyone:
+	Get-ChildItem -Path . -Filter *.js | ForEach-Object {	    (Get-Content $_.FullName) | Set-Content -Encoding utf8 $_.FullName	}
+21:42:59 From Monica Gupta to Everyone:
+	git diff
+21:48:15 From Monica Gupta to Everyone:
+	git log --graph --oneline --decorate --all --branches > aa.txt
+21:48:37 From Indu Singh to Everyone:
+	*   4ae628c (HEAD -> main) Merge branch 'feature-Mergedlogin'	|\  	| * 8316663 (feature-Mergedlogin) Added merged login feature	|/  	* d76aab2 (develop, dev-branch) Added hello.txt file	* 752258b (origin/feature-login) Add login feature	* e6f444c (origin/main) Create Hi	* 872b055 Initial commit
+21:51:19 From Monica Gupta to Everyone:
+	Indu +1
+21:51:45 From Monica Gupta to Everyone:
+	git checkout -b feature-relogin
+21:52:19 From Monica Gupta to Everyone:
+	relogin.js
+21:52:34 From Monica Gupta to Everyone:
+	Login new rebase feature
+21:52:53 From Monica Gupta to Everyone:
+	git add relogin.js
+21:53:17 From Monica Gupta to Everyone:
+	git commit -am "Added Rebased login feature"
+21:53:46 From Monica Gupta to Everyone:
+	git checkout main
+21:54:12 From Monica Gupta to Everyone:
+	git checkout feature-relogin
+21:54:27 From Monica Gupta to Everyone:
+	git rebase main
+22:01:47 From Mark Zulkiewicz to Everyone:
+	done
+22:01:48 From Ravi Rai to Everyone:
+	Done
+22:01:51 From Sean Sweitzer to Everyone:
+	done
+22:02:02 From Mansi Gupta to Everyone:
+	done
+22:02:08 From Bryan Wong to Everyone:
+	done
+22:02:12 From Indu Singh to Everyone:
+	done
+22:02:12 From Pravesh Kumar Singh to Everyone:
+	done
+22:02:13 From Apurv Mishra to Everyone:
+	done
+22:02:15 From roshni.kumari to Everyone:
+	Done
+22:02:28 From Apoorv Dixit to Everyone:
+	done
+22:04:30 From Mariyan Georgiev to Everyone:
+	done
+22:05:59 From Monica Gupta to Everyone:
+	git push origin feature-relogin
+22:08:47 From Monica Gupta to Everyone:
+	git diff
+22:13:56 From Monica Gupta to Everyone:
+	git status
+22:15:29 From Monica Gupta to Everyone:
+	git checkout main
+22:16:06 From Monica Gupta to Everyone:
+	git commit -m "aa.txt added"
+22:16:09 From Monica Gupta to Everyone:
+	git add .
+22:16:54 From Mansi Gupta to Everyone:
+	Need to step down for a bit, are we going to have break today?
+22:17:23 From Pravesh Kumar Singh to Everyone:
+	Reacted to "Need to step down fo..." with 👍
+22:17:36 From Monica Gupta to Everyone:
+	10 min break : 10:27 PM
+22:17:54 From Monica Gupta to Everyone:
+	9:57
+22:27:22 From Sean Sweitzer to Everyone:
+	back
+22:27:25 From Apoorv Dixit to Everyone:
+	back
+22:27:25 From Mariyan Georgiev to Everyone:
+	back
+22:27:27 From Aakriti Talreja to Everyone:
+	back
+22:27:27 From Indu Singh to Everyone:
+	back
+22:27:29 From Bryan Wong to Everyone:
+	back
+22:27:29 From Pravesh Kumar Singh to Everyone:
+	back
+22:27:31 From Azad Singh to Everyone:
+	back
+22:27:36 From RISHABH AGGARWAL to Everyone:
+	Back
+22:27:55 From Monica Gupta to Everyone:
+	git checkout main
+22:28:22 From Monica Gupta to Everyone:
+	app.js
+22:28:43 From Monica Gupta to Everyone:
+	echo 'console.log("Hello from main branch");' > app.js
+22:30:37 From Monica Gupta to Everyone:
+	esc : q!
+22:31:59 From Monica Gupta to Everyone:
+	git add app.js
+22:32:12 From Monica Gupta to Everyone:
+	git commit -m "Initial commit with app.js"
+22:32:55 From Monica Gupta to Everyone:
+	git checkout -b feature-branch
+22:33:23 From Monica Gupta to Everyone:
+	echo 'console.log("Hello from feature branch");' > app.js
+22:33:56 From Monica Gupta to Everyone:
+	git add app.js
+22:34:07 From Monica Gupta to Everyone:
+	git commit -m "Updated app.js in feature-branch"
+22:34:33 From Monica Gupta to Everyone:
+	git checkout main
+22:34:52 From Monica Gupta to Everyone:
+	echo 'console.log("Hello from main branch - modified");' > app.js
+22:35:10 From Monica Gupta to Everyone:
+	git add app.js
+22:35:24 From Monica Gupta to Everyone:
+	git commit -m "Updated app.js in main"
+22:35:47 From Monica Gupta to Everyone:
+	git merge feature-branch
+22:36:45 From Monica Gupta to Everyone:
+	git status
+22:40:25 From Monica Gupta to Everyone:
+	Open app.js and you’ll see: (VS Code provides an intuitive interface to compare and resolve conflicts.)
+22:40:42 From Monica Gupta to Everyone:
+	git add app.js
+22:46:50 From Monica Gupta to Everyone:
+	settings.json
+22:48:12 From Monica Gupta to Everyone:
+	"git.mergeEditor": false
+22:51:49 From Monica Gupta to Everyone:
+	git commit -m "Resolved merge conflict in app.js"
+22:52:19 From Monica Gupta to Everyone:
+	git merge --abort
+22:53:06 From Monica Gupta to Everyone:
+	git log --oneline --graph --all > aa.txt
+22:53:14 From Monica Gupta to Everyone:
+	git log --oneline --graph --all
+22:54:01 From Monica Gupta to Everyone:
+	q
+23:02:31 From Monica Gupta to Everyone:
+	git checkout main
+23:02:41 From Monica Gupta to Everyone:
+	echo "console.log('Initial commit');" > feature.js
+23:02:57 From Monica Gupta to Everyone:
+	git add feature.js
+23:03:11 From Monica Gupta to Everyone:
+	git commit -m "Initial commit with feature.js"
+23:03:46 From Monica Gupta to Everyone:
+	echo "console.log('Updated feature')" >> feature.js
+23:04:26 From Monica Gupta to Everyone:
+	git config --global core.editor "code --wait"
+23:05:02 From Monica Gupta to Everyone:
+	git commit --amend
+23:05:43 From Monica Gupta to Everyone:
+	git commit --amend --no-edit
+23:07:37 From Monica Gupta to Everyone:
+	git log --oneline --graph --all
+23:07:58 From Mark Zulkiewicz to Everyone:
+	done
+23:08:04 From Mansi Gupta to Everyone:
+	done
+23:08:05 From Indu Singh to Everyone:
+	done
+23:09:00 From Mariyan Georgiev to Everyone:
+	It is okay because issues are coming and you are fixing them, that helps
+23:10:47 From Azad Singh to Everyone:
+	Reacted to "It is okay because i..." with 👍
+23:10:48 From Mansi Gupta to Everyone:
+	Reacted to "It is okay because i..." with 👍
+23:10:49 From Apoorv Dixit to Everyone:
+	Reacted to "It is okay because i..." with 👍
+23:10:50 From Indu Singh to Everyone:
+	Reacted to "It is okay because i..." with 👍
+23:10:50 From Vishakha Garg to Everyone:
+	Reacted to "It is okay because i..." with 👍
+23:10:50 From Mark Zulkiewicz to Everyone:
+	Reacted to "It is okay because i..." with 👍
+23:10:55 From Sean Sweitzer to Everyone:
+	Reacted to "It is okay because i..." with 👍
+23:13:13 From Monica Gupta to Everyone:
+	echo "console.log('Commit 1');" > feature.js	git add feature.js	git commit -m "Commit 1"		echo "console.log('Commit 2');" >> feature.js	git add feature.js	git commit -m "Commit 2"		echo "console.log('Commit 3');" >> feature.js	git add feature.js	git commit -m "Commit 3"
+23:14:53 From Monica Gupta to Everyone:
+	git status
+23:15:54 From Monica Gupta to Everyone:
+	git stash
+23:17:37 From Monica Gupta to Everyone:
+	git rebase -i HEAD~3
+23:19:19 From Monica Gupta to Everyone:
+	You can change the command next to each commit:	pick: Keep the commit as is.	reword: Change the commit message.	edit: Amend the commit (useful for changing files).	squash: Combine this commit with the previous one.	fixup: Similar to squash, but discards the commit message.	drop: Remove the commit.
+23:20:19 From Monica Gupta to Everyone:
+	squash
+23:22:47 From Monica Gupta to Everyone:
+	git rebase --continue
+23:23:45 From Sean Sweitzer to Everyone:
+	done
+23:23:49 From Mark Zulkiewicz to Everyone:
+	done
+23:24:45 From Monica Gupta to Everyone:
+	Mark +1
+23:24:53 From Mansi Gupta to Everyone:
+	done
+23:24:57 From Ravi Rai to Everyone:
+	done
+23:25:08 From Indu Singh to Everyone:
+	done
+23:25:20 From Mariyan Georgiev to Everyone:
+	done
+23:25:21 From Apoorv Dixit to Everyone:
+	done
+23:25:23 From Pravesh Kumar Singh to Everyone:
+	done
+23:25:28 From Subodh Modgil to Everyone:
+	done
+23:25:29 From Apurv Mishra to Everyone:
+	done
+23:25:38 From Azad Singh to Everyone:
+	done
+23:27:21 From Monica Gupta to Everyone:
+	Create the first commit	echo "console.log('Initial commit');" > feature1.js	git add feature1.js	git commit -m "Initial commit"	Create a second commit	echo "console.log('Second commit');" >> feature1.js	git add feature1.js	git commit -m "Second commit"	Create a third commit	echo "console.log('Third commit');" >> feature1.js	git add feature1.js	git commit -m "Third commit"
+23:29:08 From Monica Gupta to Everyone:
+	git log --oneline
+23:29:53 From Monica Gupta to Everyone:
+	git reset --hard HEAD~1
+23:30:57 From Monica Gupta to Everyone:
+	git reflog
+23:31:53 From Monica Gupta to Everyone:
+	Attendance link: 2/04/25:	https://forms.office.com/r/UQJtD45Wi9
+23:32:19 From Monica Gupta to Everyone:
+	git reset --hard 3024c8a
+23:34:04 From Sean Sweitzer to Everyone:
+	Thank you
+23:34:09 From Mark Zulkiewicz to Everyone:
+	done
+23:34:10 From Apurv Mishra to Everyone:
+	done
+23:34:11 From Aakriti Talreja to Everyone:
+	attendance given
+23:34:12 From Vishakha Garg to Everyone:
+	attendance given
+23:34:13 From Mariyan Georgiev to Everyone:
+	done
+23:34:15 From Pankaj Singh Bhandari to Everyone:
+	THanks you. Done
+23:34:15 From Vivek Singh to Everyone:
+	can we get wordbook of ppt till today?
+23:34:16 From Vishakha Garg to Everyone:
+	done
+23:34:22 From Shawn Yu to Everyone:
+	given and done
+23:34:35 From Apoorv Dixit to Everyone:
+	Thank you . Done
+23:34:40 From Vishakha Garg to Everyone:
+	where i can get recording of yesterdays demo?
+23:35:14 From Vishakha Garg to Everyone:
+	Vishakha.garg@anaxi.com
+23:35:18 From Aakriti Talreja to Everyone:
+	no
+23:35:22 From Vishakha Garg to Everyone:
+	I was not in yesterdays session
+23:35:27 From Vishakha Garg to Everyone:
+	I got demo link today
+23:35:36 From Mansi Gupta to Everyone:
+	thank you for all the patience with us, see you tomorrow!
+23:35:41 From Aakriti Talreja to Everyone:
+	aakriti.talreja@aristocrat.com
+23:35:53 From Aakriti Talreja to Everyone:
+	Reacted to "thank you for all th..." with 👍
+23:35:58 From Mark Zulkiewicz to Everyone:
+	mark.zulkiewicz@aristocrat.com
+23:36:51 From Mark Zulkiewicz to Everyone:
+	everything was great today, thank you monica
+23:36:56 From Aakriti Talreja to Everyone:
+	+1
+23:36:56 From Vishakha Garg to Everyone:
+	Thank you
+23:37:00 From Ravi Rai to Everyone:
+	Nice Session, Very Informatic 		Thank you
+23:37:00 From Pankaj Singh Bhandari to Everyone:
+	thanks monica. have a good night. see you tomorrow.
+23:37:01 From Mariyan Georgiev to Everyone:
+	All good, thanks and see you tomorrow
+23:37:07 From Vivek Singh to Everyone:
+	thanks Monica
+23:37:09 From Apoorv Dixit to Everyone:
+	Thank you Monica
+23:38:14 From Monica Gupta to Everyone:
+	git reset --hard e9a23aa

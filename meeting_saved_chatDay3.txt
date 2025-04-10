@@ -1,0 +1,438 @@
+20:19:36 From Monica Gupta to Everyone:
+	aakriti.talreja@aristocrat.com,	mark.zulkiewicz@aristocrat.com,	Vishakha.garg@anaxi.com
+20:23:21 From K B Prabha to Everyone:
+	https://forms.office.com/r/UQJtD45Wi9
+20:34:35 From Monica Gupta to Everyone:
+	Attendance Link:	https://forms.office.com/r/UQJtD45Wi9
+20:35:06 From K B Prabha to Everyone:
+	Good evening all!  As is customary, please enter your training attendance in the below link.  	https://forms.office.com/r/UQJtD45Wi9	Monica will also share the link again for those who join in late or have not filled in at the start of the training.	Many thanks
+20:35:22 From Pravesh Kumar Singh to Everyone:
+	yes
+20:51:03 From Monica Gupta to Everyone:
+	file.txt
+20:51:27 From Monica Gupta to Everyone:
+	First line of code
+20:52:08 From Monica Gupta to Everyone:
+	git add file.txt
+20:52:22 From Monica Gupta to Everyone:
+	git commit -m "Initial commit"
+20:52:56 From Monica Gupta to Everyone:
+	Add to File.txt:
+20:52:59 From Monica Gupta to Everyone:
+	New feature in progress
+20:53:19 From Monica Gupta to Everyone:
+	temp.txt
+20:53:56 From Monica Gupta to Everyone:
+	# This is an untracked file
+20:55:00 From Monica Gupta to Everyone:
+	git stash
+20:55:17 From Monica Gupta to Everyone:
+	Temporary work	# This is an untracked file
+20:55:29 From Monica Gupta to Everyone:
+	temp.txt
+20:56:14 From Mariyan Georgiev to Everyone:
+	Hi Monica,
+	I had another meeting conflict and couldn’t join earlier. Could you share the attendance link when possible? Thanks.
+20:56:35 From Monica Gupta to Everyone:
+	Attendance Link:	https://forms.office.com/r/UQJtD45Wi9
+20:56:42 From Mariyan Georgiev to Everyone:
+	Reacted to "Attendance Link:
+	htt..." with ❤️
+20:57:09 From Monica Gupta to Everyone:
+	git stash -u
+20:58:25 From Monica Gupta to Everyone:
+	git stash list
+20:58:58 From Monica Gupta to Everyone:
+	git stash apply "stash@{0}"
+20:59:37 From Monica Gupta to Everyone:
+	git stash -a
+20:59:58 From Monica Gupta to Everyone:
+	git stash push -m "Saving work on feature"
+21:00:33 From Monica Gupta to Everyone:
+	git checkout feature-branch
+21:04:17 From Monica Gupta to Everyone:
+	git stash clear
+21:05:35 From Monica Gupta to Everyone:
+	git status
+21:06:19 From Monica Gupta to Everyone:
+	git checkout "stash@{0}" -- file.txt
+21:09:36 From Monica Gupta to Everyone:
+	git stash branch new-feature-branch
+21:10:04 From Monica Gupta to Everyone:
+	git branch
+21:10:43 From Monica Gupta to Everyone:
+	git stash -a
+21:11:58 From Monica Gupta to Everyone:
+	git checkout new-feature-branch
+21:14:51 From Mansi Gupta to Everyone:
+	done
+21:14:54 From Mark Zulkiewicz to Everyone:
+	done
+21:15:16 From Apoorv Dixit to Everyone:
+	done
+21:15:18 From Apurv Mishra to Everyone:
+	done
+21:15:21 From Shawn Yu to Everyone:
+	done
+21:15:24 From Indu Singh to Everyone:
+	done
+21:15:41 From Kamal Bhatt to Everyone:
+	done
+21:16:12 From Bryan Wong to Everyone:
+	done
+21:18:13 From Monica Gupta to Everyone:
+	demo.txt
+21:18:46 From Apurv Mishra to Everyone:
+	Hi Monica,
+	Need to drop for some unavoidable work, will be back in half an hour.
+	Thanks
+21:19:10 From Monica Gupta to Everyone:
+	Initial content
+21:20:36 From Monica Gupta to Everyone:
+	git checkout main
+21:20:47 From Monica Gupta to Everyone:
+	git add demo.txt
+21:21:00 From Monica Gupta to Everyone:
+	git commit -m "Initial commit"
+21:21:14 From Monica Gupta to Everyone:
+	Feature in progress
+21:21:33 From Monica Gupta to Everyone:
+	git status
+21:22:20 From Monica Gupta to Everyone:
+	git stash -a
+21:23:22 From Monica Gupta to Everyone:
+	git stash --patch
+21:24:45 From Monica Gupta to Everyone:
+	git stash apply
+21:24:56 From Monica Gupta to Everyone:
+	git stash -a
+21:26:10 From Monica Gupta to Everyone:
+	diff --git a/demo.txt b/demo.txt	index 960c351..03905cc 100644	--- a/demo.txt	+++ b/demo.txt	@@ -1 +1,2 @@	-Initial content	\ No newline at end of file	+Initial content	+Feature in progress	\ No newline at end of file	(1/1) Stash this hunk [y,n,q,a,d,e,p,?]?
+21:28:19 From Alejandro Gomez to Everyone:
+	I will have to drop, will see the rest later again, thanks
+21:28:48 From Alejandro Gomez to Everyone:
+	Yes i am seeing the recordings thanks
+21:31:35 From Monica Gupta to Everyone:
+	git stash clear
+21:32:04 From Indu Singh to Everyone:
+	done
+21:36:35 From Mariyan Georgiev to Everyone:
+	I currently use stash mainly for two things:
+	When you need to switch branch but you have changes. So you save them and then you can go back and restore them and continue working
+	Imagine you as developer want to save some code to apply it sometimes but you don’t want to commit it or push it to the source code because it is not production code, it is code specific to your environment that you must not push
+21:39:56 From Pankaj Singh Bhandari to Everyone:
+	Reacted to "I currently use stas..." with 👍
+21:40:03 From Apoorv Dixit to Everyone:
+	Reacted to "I currently use stas..." with 👍
+21:40:03 From Randy Kochis to Everyone:
+	Reacted to "I currently use stas..." with 👍
+21:40:06 From Monica Gupta to Everyone:
+	Mariyan +1
+21:40:11 From Azad Singh to Everyone:
+	Reacted to "I currently use stas..." with 👍
+21:40:24 From Indu Singh to Everyone:
+	Reacted to "I currently use stas..." with 👍
+21:40:25 From Apoorv Dixit to Everyone:
+	done
+21:40:31 From Kamal Bhatt to Everyone:
+	done
+21:40:53 From Ravi Rai to Everyone:
+	done
+21:41:13 From Mark Zulkiewicz to Everyone:
+	done
+21:41:14 From Shawn Yu to Everyone:
+	done
+21:41:15 From Mansi Gupta to Everyone:
+	done
+21:41:16 From Bryan Wong to Everyone:
+	done
+21:42:54 From Monica Gupta to Everyone:
+	Warning	git clean is destructive—there is no undo unless you have backups.	Always run git clean -n first to see what will be deleted.	Be cautious with -x, as it removes even ignored files.
+21:43:12 From Monica Gupta to Everyone:
+	git clean -n
+21:43:32 From Monica Gupta to Everyone:
+	git clean -f
+21:43:45 From Monica Gupta to Everyone:
+	git clean -fd
+21:44:12 From Monica Gupta to Everyone:
+	git clean -fX
+21:45:14 From Monica Gupta to Everyone:
+	git clean -fdx
+21:45:29 From Monica Gupta to Everyone:
+	git clean -i
+21:46:38 From Monica Gupta to Everyone:
+	git add .
+21:46:44 From Monica Gupta to Everyone:
+	git commit -m "Initial commit"
+21:46:56 From Monica Gupta to Everyone:
+	git status
+21:47:15 From Monica Gupta to Everyone:
+	tracked1.txt
+21:47:31 From Monica Gupta to Everyone:
+	Tracked file
+21:47:46 From Monica Gupta to Everyone:
+	untracked1.txt
+21:48:00 From Monica Gupta to Everyone:
+	Untracked file
+21:48:15 From Monica Gupta to Everyone:
+	mkdir temp-folder
+21:48:40 From Monica Gupta to Everyone:
+	ignored.txt
+21:49:01 From Monica Gupta to Everyone:
+	Ignored file
+21:49:48 From Monica Gupta to Everyone:
+	echo "temp-folder/" > .gitignore
+21:51:05 From Monica Gupta to Everyone:
+	git add tracked1.txt .gitignore
+21:51:20 From Monica Gupta to Everyone:
+	git commit -m "Initial commit with tracked1.txt and .gitignore"
+21:51:34 From Monica Gupta to Everyone:
+	git status
+21:52:15 From Monica Gupta to Everyone:
+	git clean -f
+21:53:00 From Monica Gupta to Everyone:
+	git clean -fd
+21:53:44 From Monica Gupta to Everyone:
+	git clean -fX
+21:54:15 From Monica Gupta to Everyone:
+	git clean -fdx
+21:55:13 From Randy Kochis to Everyone:
+	done
+21:55:13 From Indu Singh to Everyone:
+	done
+21:55:17 From Pankaj Singh Bhandari to Everyone:
+	Done
+21:55:46 From Bryan Wong to Everyone:
+	done
+21:56:10 From Kamal Bhatt to Everyone:
+	done
+21:56:20 From Shawn Yu to Everyone:
+	done
+21:58:11 From Monica Gupta to Everyone:
+	gupta.monicag@gmail.com
+22:06:15 From Monica Gupta to Everyone:
+	git checkout -b bugfix-branch
+22:07:20 From Monica Gupta to Everyone:
+	"New Feature A" -> featureA.txt	git add featureA.txt	git commit -m "Added New Feature A"		 "New Feature B" -> featureB.txt	git add featureB.txt	git commit -m "Added New Feature B"		"Critical Bug Fix" -> bugfix.txt	git add bugfix.txt	git commit -m "Fixed a critical bug"
+22:09:31 From Monica Gupta to Everyone:
+	git checkout main
+22:09:40 From Monica Gupta to Everyone:
+	git log --oneline --graph --all
+22:11:22 From Monica Gupta to Everyone:
+	git cherry-pick 5012336
+22:12:10 From Monica Gupta to Everyone:
+	git log --oneline --graph --all
+22:18:05 From Indu Singh to Everyone:
+	done
+22:18:09 From Mariyan Georgiev to Everyone:
+	done
+22:18:12 From Azad Singh to Everyone:
+	Cherry-pick done
+22:18:20 From Pravesh Kumar Singh to Everyone:
+	done
+22:18:25 From Apoorv Dixit to Everyone:
+	done
+22:18:31 From Randy Kochis to Everyone:
+	done
+22:18:32 From Shawn Yu to Everyone:
+	done
+22:19:20 From Monica Gupta to Everyone:
+	Markup
+22:19:28 From Monica Gupta to Everyone:
+	<tags>
+22:19:31 From Monica Gupta to Everyone:
+	HTML
+22:19:35 From Monica Gupta to Everyone:
+	XML
+22:28:35 From Monica Gupta to Everyone:
+	WML
+22:28:38 From Monica Gupta to Everyone:
+	YAML
+22:30:22 From Monica Gupta to Everyone:
+	markdown
+22:31:54 From Indu Singh to Everyone:
+	Can we have 10 mins break ? :)
+22:32:14 From Randy Kochis to Everyone:
+	Reacted to "Can we have 10 mins ..." with 👍
+22:32:23 From Indu Singh to Everyone:
+	4 am
+22:32:24 From Ravi Rai to Everyone:
+	Reacted to "Can we have 10 mins ..." with 👍
+22:32:38 From Monica Gupta to Everyone:
+	10 min break : 22: 42
+22:32:46 From Monica Gupta to Everyone:
+	4:10
+22:32:48 From Mark Zulkiewicz to Everyone:
+	thats 10
+22:32:51 From Mark Zulkiewicz to Everyone:
+	'10:12
+22:32:52 From Randy Kochis to Everyone:
+	4:12
+22:42:17 From Indu Singh to Everyone:
+	back
+22:42:19 From Mark Zulkiewicz to Everyone:
+	back
+22:42:21 From Bryan Wong to Everyone:
+	back
+22:42:24 From Mariyan Georgiev to Everyone:
+	back
+22:42:27 From Ravi Rai to Everyone:
+	back
+22:42:53 From Apoorv Dixit to Everyone:
+	back
+22:42:55 From roshni.kumari to Everyone:
+	back
+22:43:21 From Pankaj Singh Bhandari to Everyone:
+	Hats off to Indu and Randy
+22:43:24 From Azad Singh to Everyone:
+	back
+22:43:45 From Kamal Bhatt to Monica Gupta(direct message):
+	back
+22:43:59 From Monica Gupta to Everyone:
+	git checkout -b git-tag-demo
+22:44:55 From Monica Gupta to Everyone:
+	version.txt
+22:45:42 From Monica Gupta to Everyone:
+	Version 1
+22:45:54 From Monica Gupta to Everyone:
+	git add version.txt
+22:45:59 From Monica Gupta to Everyone:
+	git commit -m "Initial commit - Version 1"
+22:46:37 From Monica Gupta to Everyone:
+	git add version.txt	git commit -m "Update to Version 2"
+22:46:54 From Monica Gupta to Everyone:
+	Version 3
+22:47:07 From Monica Gupta to Everyone:
+	git add version.txt	git commit -m "Update to Version 3"
+22:47:44 From Monica Gupta to Everyone:
+	git tag v1.0
+22:48:00 From Monica Gupta to Everyone:
+	git show v1.0
+22:49:01 From Monica Gupta to Everyone:
+	git tag -a v2.0 -m "Release version 2.0"
+22:49:25 From Monica Gupta to Everyone:
+	git show v2.0
+22:50:03 From Monica Gupta to Everyone:
+	git tag
+22:50:15 From Monica Gupta to Everyone:
+	git tag -d v1.0.0
+22:50:51 From Monica Gupta to Everyone:
+	git push origin --delete tag v1.0.0
+22:51:34 From Monica Gupta to Everyone:
+	git push origin v1.0.0
+22:51:42 From Monica Gupta to Everyone:
+	git push --tags
+22:55:09 From Monica Gupta to Everyone:
+	Tags are widely used for versioning software releases. After tagging a release, you can:	Create a release branch from a tag:	git checkout -b release-1.0 v1.0.0	Check out a specific version of the project:	git checkout v1.0.0	Generate release archives:	git archive --format=zip --output=v1.0.0.zip v1.0.0
+22:57:27 From Azad Singh to Everyone:
+	sure
+22:58:02 From Mansi Gupta to Everyone:
+	Reacted to "sure" with 👍
+22:58:02 From Indu Singh to Everyone:
+	Reacted to "git push --tags" with 👍
+22:58:03 From Rishabh Aggarwal to Everyone:
+	Reacted to "sure" with 👍
+22:58:05 From Rishabh Aggarwal to Everyone:
+	Removed a 👍 reaction from "sure"
+22:58:07 From Rishabh Aggarwal to Everyone:
+	Reacted to "sure" with 👍
+22:58:09 From Bryan Wong to Everyone:
+	Reacted to "sure" with 👍
+22:58:11 From Ravi Rai to Everyone:
+	Reacted to "sure" with 👍
+22:58:11 From Apoorv Dixit to Everyone:
+	Reacted to "sure" with 👍
+22:58:12 From Rishabh Aggarwal to Everyone:
+	Removed a 👍 reaction from "sure"
+22:58:14 From Rishabh Aggarwal to Everyone:
+	Reacted to "sure" with 👍
+22:58:15 From Kamal Bhatt to Everyone:
+	Reacted to "sure" with 👍
+23:00:18 From Monica Gupta to Everyone:
+	Headings	# H1 (Main Title)	## H2 (Subheading)	### H3 (Smaller Heading)	Text Formatting	*Italic*  	**Bold**  	~~Strikethrough~~  	`Inline Code`	Lists	- Bullet Point 1	- Bullet Point 2	  - Sub-point	1. Numbered Item 1	2. Numbered Item 2	Links & Images	[GitHub](https://github.com)  	![Alt Text](image.png)	Code Blocks	```python	print("Hello, Markdown!")	```
+23:00:26 From Monica Gupta to Everyone:
+	<h1>
+23:01:00 From Monica Gupta to Everyone:
+	h1...h6
+23:04:13 From Monica Gupta to Everyone:
+	[GitHub](https://github.com)  	<a href="https://github.com"> GitHub </a>
+23:05:05 From Monica Gupta to Everyone:
+	![Alt Text](image.png)	<img src="image.png" alt="Alt Text"/>
+23:05:36 From Monica Gupta to Everyone:
+	Code Blocks	```python	print("Hello, Markdown!")	```
+23:06:30 From Monica Gupta to Everyone:
+	# Project Name	A short description of your project.	## Installation	```bash	git clone https://github.com/user/repo.git	cd repo	npm install
+23:07:41 From Monica Gupta to Everyone:
+	```md	# Contributing	Thank you for your interest! Please follow these steps:	1. Fork the repository	2. Create a feature branch	3. Commit your changes	4. Open a pull request
+23:08:24 From Monica Gupta to Everyone:
+	MIT License	Copyright (c) 2024 [Your Name]	Permission is hereby granted...
+23:12:39 From Monica Gupta to Everyone:
+	<a href="#aname">top</a>
+23:13:14 From Monica Gupta to Everyone:
+	<hr>
+23:13:17 From Monica Gupta to Everyone:
+	---
+23:19:53 From Monica Gupta to Everyone:
+	Exercise: Prepare a list of Git commands we have worked with, in a .md named gitcmdsday123.md.	List should have bulleted commands as code blocks and in h2 tag the command name should be written.
+23:20:15 From Monica Gupta to Everyone:
+	Exercise: Prepare a list of Git commands we have worked with, in a .md named gitcmdsday123.md.	List should have bulleted commands as code blocks and in h2 tag the command name should be written.	Create in GitHub.
+23:23:44 From Monica Gupta to Everyone:
+	You can create an alias using the following command:	git config --global alias.<shortcut> "<actual-command>"
+23:24:03 From Monica Gupta to Everyone:
+	Alias	Full Command	Description	co	checkout	Switch branches	br	branch	List branches	ci	commit	Commit changes	st	status	Show status	hist	log --oneline --graph --all	View commit history in a concise format	lg	log --pretty=format:"%h - %an: %s"	Custom log format	amend	commit --amend --no-edit	Amend last commit without changing the message
+23:25:04 From Monica Gupta to Everyone:
+	git config --global alias.co checkout	git config --global alias.br branch	git config --global alias.ci commit	git config --global alias.st status	git config --global alias.hist "log --oneline --graph --all"
+23:26:27 From Monica Gupta to Everyone:
+	git co main   # Instead of git checkout main	git br        # Instead of git branch	git ci -m "Updated code"  # Instead of git commit -m "Updated code"	git hist      # Instead of a long log command
+23:27:02 From Monica Gupta to Everyone:
+	git config --global --list | grep alias
+23:27:11 From Monica Gupta to Everyone:
+	git config --global --list | Select-String "alias"
+23:27:49 From Monica Gupta to Everyone:
+	git config --global --unset alias.ci
+23:28:37 From Monica Gupta to Everyone:
+	~/.gitconfig
+23:28:53 From Monica Gupta to Everyone:
+	cat ~/.gitconfig
+23:31:37 From Monica Gupta to Everyone:
+	findstr
+23:31:48 From Mark Zulkiewicz to Everyone:
+	all good, thank you monica, i will not be at the sessions next week but i look forward to working through the recordings and following along.
+23:31:53 From Monica Gupta to Everyone:
+	git config --global --list | findstr "alias"
+23:33:31 From Mansi Gupta to Everyone:
+	insightful
+23:33:36 From Mark Zulkiewicz to Everyone:
+	the first two days were easy to follow however today i found myself getting lost a few times and having to figure it out
+23:33:40 From Indu Singh to Everyone:
+	getting an error here  -- git config --global --list | grep alias
+23:34:05 From Monica Gupta to Everyone:
+	git config --global --list | findstr "alias"
+23:34:09 From Randy Kochis to Everyone:
+	all good stuff to know, thanks
+23:35:09 From Vivek Singh to Everyone:
+	Thanks Monica..nice content.
+23:35:34 From Mariyan Georgiev to Everyone:
+	All good, see you on the next one.
+23:35:45 From Shawn Yu to Everyone:
+	Thank you.
+23:35:53 From Kamal Bhatt to Monica Gupta(direct message):
+	All good.
+23:36:02 From Ravi Rai to Everyone:
+	That's really helpful—thanks a lot for all these insights!
+23:36:16 From Indu Singh to Everyone:
+	Thanks Monica ! Good learning this week
+23:36:20 From Kamal Bhatt to Everyone:
+	Please share today's chat
+23:36:39 From Apoorv Dixit to Everyone:
+	Thanks Monica, see you on the next week
+23:36:39 From Azad Singh to Everyone:
+	Thank you Monica
+23:36:46 From Pankaj Singh Bhandari to Everyone:
+	thanks Monika, have a great weekend.
+23:37:07 From Azad Singh to Everyone:
+	Please share attendance sheet
+23:37:17 From Monica Gupta to Everyone:
+	Attendance Link:	https://forms.office.com/r/UQJtD45Wi9
+23:37:34 From Azad Singh to Everyone:
+	Thanks you again

@@ -1,0 +1,384 @@
+20:38:53 From Ashna Grover to Everyone:
+	Hi Everyone,	Please fill in the attendance form. This is a mandatory part of the training.	https://forms.office.com/r/UQJtD45Wi9
+20:40:51 From Pravesh Kumar Singh to Everyone:
+	Reacted to "Hi Everyone,
+	Please ..." with 👍
+20:41:04 From roshni.kumari to Everyone:
+	Reacted to "Hi Everyone,
+	Please ..." with 👍
+20:41:06 From Monica Gupta to Everyone:
+	Hi Everyone,	Please fill in the attendance form. This is a mandatory part of the training.	https://forms.office.com/r/UQJtD45Wi9
+20:41:52 From Aakriti Talreja to Everyone:
+	Done
+20:42:09 From Apoorv Dixit to Everyone:
+	done
+20:42:09 From Azad Singh to Everyone:
+	done
+20:42:10 From Sean Sweitzer to Everyone:
+	done
+20:42:10 From Rishabh Aggarwal to Everyone:
+	done
+20:42:11 From Pravesh Kumar Singh to Everyone:
+	done
+20:42:14 From roshni.kumari to Everyone:
+	Done
+20:42:22 From vivek to Everyone:
+	Done
+20:43:22 From Monica Gupta to Everyone:
+	Link week 2:	https://aristocrat.zoom.us/j/94661949686
+20:45:04 From Monica Gupta to Everyone:
+	Git hooks are scripts that Git executes automatically before or after specific Git events.
+20:52:17 From Pravesh Kumar Singh to Everyone:
+	Git init
+20:54:24 From Monica Gupta to Everyone:
+	#!/bin/sh	echo "Running ESLint before commit..."		# Run ESLint on all staged JS files	git diff --cached --name-only --diff-filter=ACM | grep '\.js$' | xargs npx eslint		if [ $? -ne 0 ]; then	  echo "❌ ESLint found issues. Fix them before committing."	  exit 1	fi		echo "✅ ESLint checks passed!"	exit 0
+20:57:40 From Sean Sweitzer to Everyone:
+	done
+20:58:05 From Pravesh Kumar Singh to Everyone:
+	done
+20:59:41 From Mansi Gupta to Everyone:
+	Done
+20:59:51 From Azad Singh to Everyone:
+	done
+21:00:03 From Apoorv Dixit to Everyone:
+	done
+21:00:25 From Shawn Yu to Everyone:
+	done
+21:00:33 From Subodh Modgil to Everyone:
+	done
+21:01:50 From Monica Gupta to Everyone:
+	Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+21:02:55 From Monica Gupta to Everyone:
+	done2
+21:03:08 From Apoorv Dixit to Everyone:
+	done2
+21:03:34 From Sean Sweitzer to Everyone:
+	done2
+21:03:35 From Pravesh Kumar Singh to Everyone:
+	Done 2
+21:04:19 From Monica Gupta to Everyone:
+	https://nodejs.org/en/download
+21:04:52 From Monica Gupta to Everyone:
+	v22.14.0
+21:05:10 From Shawn Yu to Everyone:
+	v10.16.3
+21:05:15 From Monica Gupta to Everyone:
+	node -v
+21:05:27 From Pravesh Kumar Singh to Everyone:
+	v23.4.0
+21:05:36 From Mansi Gupta to Everyone:
+	V22
+21:06:02 From Azad Singh to Everyone:
+	v18.14.1
+21:06:22 From Apoorv Dixit to Everyone:
+	v22.14.0
+21:06:25 From roshni.kumari to Everyone:
+	v18.20.0
+21:07:02 From Monica Gupta to Everyone:
+	npm init -y
+21:08:38 From Sean Sweitzer to Everyone:
+	v22.14.0
+21:08:59 From Monica Gupta to Everyone:
+	npm install eslint --save-dev
+21:10:04 From Apoorv Dixit to Everyone:
+	done
+21:11:07 From Monica Gupta to Everyone:
+	npx eslint --init
+21:14:31 From Monica Gupta to Everyone:
+	done3
+21:14:35 From Mariyan Georgiev to Everyone:
+	Done 3
+21:14:36 From Apoorv Dixit to Everyone:
+	done3
+21:14:38 From Azad Singh to Everyone:
+	done3
+21:14:38 From Sean Sweitzer to Everyone:
+	done3
+21:15:14 From Monica Gupta to Everyone:
+	// import { defineConfig } from "eslint/config";	// import globals from "globals";	// import js from "@eslint/js";			// export default defineConfig([	//   { files: ["**/*.{js,mjs,cjs}"] },	//   { files: ["**/*.{js,mjs,cjs}"], languageOptions: { globals: globals.browser } },	//   { files: ["**/*.{js,mjs,cjs}"], plugins: { js }, extends: ["js/recommended"] },	// ]);					import { defineConfig } from "eslint/config";	import js from "@eslint/js"; 	import globals from "globals";		export default defineConfig([	  {	    files: ["**/*.{js,mjs,cjs}"],	    languageOptions: { 	      globals: globals.browser 	    },	    rules: {	      //"no-console": "error",	      "semi": ["error", "always"],	      "quotes": ["error", "double"]	    },	    extends: [js.configs.recommended] // Correct way to extend rules	  }	]);
+21:15:44 From Pravesh Kumar Singh to Everyone:
+	done3
+21:17:33 From Shawn Yu to Everyone:
+	npx: installed 87 in 3.833s	Unexpected token .
+21:18:30 From Monica Gupta to Everyone:
+	done4
+21:18:30 From Apoorv Dixit to Everyone:
+	done4
+21:18:34 From Azad Singh to Everyone:
+	done4
+21:18:45 From Sean Sweitzer to Everyone:
+	done4
+21:18:45 From Subodh Modgil to Everyone:
+	Done4
+21:18:47 From Pravesh Kumar Singh to Everyone:
+	done4
+21:18:48 From Mariyan Georgiev to Everyone:
+	Done 4
+21:19:00 From Mansi Gupta to Everyone:
+	Done 4
+21:24:01 From Monica Gupta to Everyone:
+	index.js
+21:24:38 From Monica Gupta to Everyone:
+	let x = 10	console.log(x)
+21:26:06 From Monica Gupta to Everyone:
+	node index.js
+21:27:08 From Monica Gupta to Everyone:
+	git add index.js
+21:27:28 From Monica Gupta to Everyone:
+	git commit -m "Test ESLint pre-commit hook"
+21:28:44 From Mariyan Georgiev to Everyone:
+	Git log
+21:29:43 From Monica Gupta to Everyone:
+	let x = 10;	console.log(x);
+21:30:55 From Monica Gupta to Everyone:
+	done pre-commit
+21:30:58 From Apoorv Dixit to Everyone:
+	done per commit
+21:31:04 From Sean Sweitzer to Everyone:
+	done pre-commit
+21:31:36 From Monica Gupta to Everyone:
+	chmod +x commit-msg
+21:31:37 From Pravesh Kumar Singh to Everyone:
+	Done pre-commit
+21:31:55 From Shawn Yu to Everyone:
+	done pre-commit
+21:33:51 From Kamal Bhatt to Everyone:
+	done
+21:40:38 From Monica Gupta to Everyone:
+	npm install husky --save-dev
+21:41:25 From Monica Gupta to Everyone:
+	done1
+21:41:28 From Apoorv Dixit to Everyone:
+	done 1
+21:41:29 From Mariyan Georgiev to Everyone:
+	Done 1
+21:41:44 From Sean Sweitzer to Everyone:
+	Done1
+21:41:48 From Pravesh Kumar Singh to Everyone:
+	Done 1
+21:41:55 From Monica Gupta to Everyone:
+	npx husky install
+21:42:32 From Monica Gupta to Everyone:
+	npx husky init
+21:43:31 From Monica Gupta to Everyone:
+	"prepare": "husky install"
+21:44:45 From Monica Gupta to Everyone:
+	OR   : npm set-script prepare "husky install"
+21:45:01 From Monica Gupta to Everyone:
+	npm set-script prepare "husky install"
+21:45:14 From Monica Gupta to Everyone:
+	npm run prepare
+21:46:23 From Apoorv Dixit to Everyone:
+	done 2
+21:46:23 From Mariyan Georgiev to Everyone:
+	Done 2
+21:46:34 From Pravesh Kumar Singh to Everyone:
+	done 2
+21:46:49 From Kamal Bhatt to Everyone:
+	done2
+21:46:54 From Azad Singh to Everyone:
+	Done 2
+21:47:50 From Monica Gupta to Everyone:
+	echo '? Husky Pre-Commit Hook Triggered!'
+21:48:45 From Monica Gupta to Everyone:
+	test.js
+21:49:12 From Monica Gupta to Everyone:
+	console.log('Hello World');
+21:49:34 From Monica Gupta to Everyone:
+	console.log("Hello World");
+21:50:00 From Monica Gupta to Everyone:
+	git add .husky/_/pre-commit
+21:50:10 From Monica Gupta to Everyone:
+	git add test.js
+21:51:53 From Monica Gupta to Everyone:
+	git commit -m "Testing Husky"
+21:54:53 From Shawn Yu to Everyone:
+	i am getting same error
+21:55:27 From Mariyan Georgiev to Everyone:
+	\
+22:06:57 From Monica Gupta to Everyone:
+	npx eslint .
+22:08:08 From Monica Gupta to Everyone:
+	let x = 10	console.log(x)
+22:10:48 From Mariyan Georgiev to Everyone:
+	Works for me
+22:11:08 From Azad Singh to Everyone:
+	done
+22:13:28 From Pravesh Kumar Singh to Everyone:
+	done
+22:14:21 From Shawn Yu to Everyone:
+	i cannot
+22:14:26 From Sean Sweitzer to Everyone:
+	I cannot
+22:14:46 From Monica Gupta to Everyone:
+	I couldnt
+22:18:12 From Monica Gupta to Everyone:
+	git remote add RepoName <url>
+22:19:06 From Monica Gupta to Everyone:
+	git remote add origin https://github.com/monicag-gupta/Project111.git
+22:20:57 From Monica Gupta to Everyone:
+	git remote -v	origin  https://github.com/monicag-gupta/Project111.git (fetch)	origin  https://github.com/monicag-gupta/Project111.git (push)
+22:21:30 From Monica Gupta to Everyone:
+	git remote set-url origin https://github.com/username/newrepo.git
+22:22:10 From Monica Gupta to Everyone:
+	git remote remove origin
+22:23:48 From Monica Gupta to Everyone:
+	git pull
+22:24:02 From Monica Gupta to Everyone:
+	git pull --rebase origin main
+22:25:32 From Monica Gupta to Everyone:
+	git pull --ff-only
+22:25:57 From Monica Gupta to Everyone:
+	git pull --verbose
+22:26:31 From Sean Sweitzer to Everyone:
+	I need to drop
+22:26:57 From Monica Gupta to Everyone:
+	git pull origin main --allow-unrelated-histories
+22:28:57 From Monica Gupta to Everyone:
+	git branch -m master main
+22:29:54 From Monica Gupta to Everyone:
+	git -> default branch : master
+22:30:09 From Monica Gupta to Everyone:
+	GitHub default branch : main
+22:31:57 From Monica Gupta to Everyone:
+	console.log("Hello World");
+22:32:58 From Monica Gupta to Everyone:
+	index.html
+22:33:01 From Monica Gupta to Everyone:
+	<html>	    <head>	        	    </head>	    <body>	        <h1> Hello World</h1>	    </body>	</html>
+22:33:12 From Monica Gupta to Everyone:
+	test.js
+22:33:18 From Monica Gupta to Everyone:
+	console.log("Hello World");
+22:34:23 From Monica Gupta to Everyone:
+	git add .
+22:34:27 From Monica Gupta to Everyone:
+	git commit -m "index.html and test.js added"
+22:37:14 From Monica Gupta to Everyone:
+	git push
+22:37:25 From Monica Gupta to Everyone:
+	git push origin main
+22:37:43 From Monica Gupta to Everyone:
+	git push -u origin main
+22:37:54 From Monica Gupta to Everyone:
+	git push --force origin main
+22:38:05 From Monica Gupta to Everyone:
+	git push --force-with-lease origin main
+22:43:33 From Monica Gupta to Everyone:
+	git push --force origin main
+22:46:09 From Monica Gupta to Everyone:
+	git push origin --delete feature-branch
+22:46:20 From Monica Gupta to Everyone:
+	git push origin --tags
+22:46:33 From Monica Gupta to Everyone:
+	git push --dry-run
+22:47:31 From Monica Gupta to Everyone:
+	git branch -vv
+22:48:40 From Monica Gupta to Everyone:
+	git push -u origin main
+22:50:12 From Monica Gupta to Everyone:
+	<html>	    <head>	        	    </head>	    <body>	        <h1> Hello World</h1>	        <h1> Hi Coders!</h1>	    </body>	</html>
+22:50:45 From Monica Gupta to Everyone:
+	git add .
+22:50:50 From Monica Gupta to Everyone:
+	git commit -m "updated index.html"
+22:51:26 From Monica Gupta to Everyone:
+	git push --dry-run
+22:52:25 From Monica Gupta to Everyone:
+	done
+22:52:28 From Mariyan Georgiev to Everyone:
+	done
+22:53:35 From Monica Gupta to Everyone:
+	mkdir GitCloneEgs111
+22:54:12 From Monica Gupta to Everyone:
+	https://github.com/monicag-gupta/Project111.git
+22:55:52 From Monica Gupta to Everyone:
+	git clone https://github.com/monicag-gupta/Project111.git
+22:59:55 From Mariyan Georgiev to Everyone:
+	done
+23:02:30 From Apoorv Dixit to Everyone:
+	done
+23:07:40 From Monica Gupta to Everyone:
+	git fetch origin
+23:08:02 From Monica Gupta to Everyone:
+	git fetch --dry-run
+23:11:23 From Monica Gupta to Everyone:
+	git submodule add <repository-url> <submodule-path>
+23:11:46 From Monica Gupta to Everyone:
+	ugit submodule add https://github.com/monicag-gupta/library4Git.git libs/library
+23:11:52 From Monica Gupta to Everyone:
+	git submodule add https://github.com/monicag-gupta/library4Git.git libs/library
+23:12:45 From Monica Gupta to Everyone:
+	git submodule init	git submodule update
+23:12:57 From Monica Gupta to Everyone:
+	git clone --recurse-submodules <repository-url>
+23:13:14 From Monica Gupta to Everyone:
+	git clone --recurse-submodules https://github.com/monicag-gupta/library4Git.git
+23:13:47 From Monica Gupta to Everyone:
+	git submodule update --remote
+23:14:06 From Monica Gupta to Everyone:
+	cd libs/library	git pull origin main
+23:14:29 From Monica Gupta to Everyone:
+	git add libs/library
+23:14:40 From Monica Gupta to Everyone:
+	git commit -m "Updated submodule to the latest version"
+23:14:53 From Monica Gupta to Everyone:
+	git submodule deinit -f libs/library
+23:15:22 From Monica Gupta to Everyone:
+	rm -rf .git/modules/libs/library
+23:15:42 From Monica Gupta to Everyone:
+	git rm -f libs/library
+23:16:16 From Monica Gupta to Everyone:
+	git submodule add https://github.com/monicag-gupta/library4Git.git  libs/library
+23:17:41 From Monica Gupta to Everyone:
+	style.css
+23:17:47 From Monica Gupta to Everyone:
+	h1{	  color:green;	}
+23:18:48 From Monica Gupta to Everyone:
+	This command does two things:	Clones library4Git inside the libs/library directory.	Creates a .gitmodules file to track submodule configuration.
+23:19:00 From Monica Gupta to Everyone:
+	cat .gitmodules
+23:19:52 From Monica Gupta to Everyone:
+	git add .gitmodules libs/library
+23:20:05 From Monica Gupta to Everyone:
+	git commit -m "Added library4Git as a submodule"
+23:21:07 From Monica Gupta to Everyone:
+	git clone --recurse-submodules https://github.com/monicag-gupta/Project111.git
+23:22:42 From Monica Gupta to Everyone:
+	h1{	  color:green;	}	p{	  color:red;	}
+23:23:06 From Monica Gupta to Everyone:
+	cd libs/library
+23:23:16 From Monica Gupta to Everyone:
+	git pull origin main
+23:24:09 From Monica Gupta to Everyone:
+	git submodule update --remote
+23:24:26 From Monica Gupta to Everyone:
+	git submodule deinit -f libs/library
+23:24:50 From Monica Gupta to Everyone:
+	git submodule deinit -f libs/library	rm -rf .git/modules/libs/library	git rm -f libs/library	git commit -m "Removed library4Git submodule"
+23:27:40 From Apoorv Dixit to Everyone:
+	done
+23:28:44 From Mariyan Georgiev to Everyone:
+	done
+23:29:58 From Mariyan Georgiev to Everyone:
+	Could you share the link?
+23:30:19 From Monica Gupta to Everyone:
+	https://forms.office.com/r/UQJtD45Wi9
+23:31:21 From Mariyan Georgiev to Everyone:
+	All good, thank you and see you tomorrow
+23:31:27 From Mansi Gupta to Everyone:
+	Reacted to "https://forms.office..." with 👍
+23:31:31 From Apoorv Dixit to Everyone:
+	Good session , thanks
+23:31:34 From Pravesh Kumar Singh to Everyone:
+	Reacted to "Good session , thank..." with 👍
+23:31:35 From Kamal Bhatt to Everyone:
+	it was good
+23:31:44 From Azad Singh to Everyone:
+	Reacted to "Good session , thank..." with 👍
+23:32:04 From Subodh Modgil to Everyone:
+	Thanks for session, it was good
+23:32:28 From Pankaj Singh Bhandari to Everyone:
+	You said you are going to give us break so we didn't ask for break :P
+23:32:34 From Pankaj Singh Bhandari to Everyone:
+	B bye

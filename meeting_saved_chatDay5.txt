@@ -1,0 +1,289 @@
+20:32:10 From Monica Gupta to Everyone:
+	Hi Everyone,	Please fill in the attendance form. This is a mandatory part of the training.		https://forms.office.com/r/UQJtD45Wi9
+20:34:49 From Monica Gupta to Everyone:
+	git init
+20:35:17 From Monica Gupta to Everyone:
+	npm init -y
+20:35:37 From Monica Gupta to Everyone:
+	npm install eslint --save-dev
+20:36:35 From Monica Gupta to Everyone:
+	npx eslint --init
+20:37:34 From Pravesh Kumar Singh to Everyone:
+	Reacted to "Hi Everyone,
+	Please ..." with 👍
+20:37:58 From Monica Gupta to Everyone:
+	// import { defineConfig } from "eslint/config";	// import globals from "globals";	// import js from "@eslint/js";			// export default defineConfig([	//   { files: ["**/*.{js,mjs,cjs}"] },	//   { files: ["**/*.{js,mjs,cjs}"], languageOptions: { globals: globals.browser } },	//   { files: ["**/*.{js,mjs,cjs}"], plugins: { js }, extends: ["js/recommended"] },	// ]);					import { defineConfig } from "eslint/config";	import js from "@eslint/js"; 	import globals from "globals";		export default defineConfig([	  {	    files: ["**/*.{js,mjs,cjs}"],	    languageOptions: { 	      globals: globals.browser 	    },	    rules: {	      //"no-console": "error",	      "semi": ["error", "always"],	      //"quotes": ["error", "double"]	    },	    extends: [js.configs.recommended] // Correct way to extend rules	  }	]);
+20:38:47 From Monica Gupta to Everyone:
+	npm install husky --save-dev
+20:39:07 From Monica Gupta to Everyone:
+	npx husky init
+20:39:45 From Monica Gupta to Everyone:
+	npm run prepare
+20:40:35 From Monica Gupta to Everyone:
+	#!/usr/bin/env sh	echo '? Husky Pre-Commit Hook Triggered!'	# . "$(dirname "$0")/h"
+20:41:21 From Monica Gupta to Everyone:
+	#!/usr/bin/env sh	echo '? Husky Pre-Commit Hook Triggered!'	# . "$(dirname "$0")/h"	npx eslint .
+20:41:54 From Monica Gupta to Everyone:
+	# *
+20:43:40 From Monica Gupta to Everyone:
+	node_modules/
+20:44:16 From Monica Gupta to Everyone:
+	test.js
+20:44:33 From Monica Gupta to Everyone:
+	let x = 10	console.log(x)
+20:44:49 From Monica Gupta to Everyone:
+	git add .
+20:46:15 From Monica Gupta to Everyone:
+	git add .\.husky\_\pre-commit
+20:46:34 From Monica Gupta to Everyone:
+	git commit -m "Testing Husky with ESLint"
+20:48:32 From Sean Sweitzer to Everyone:
+	done
+20:48:33 From Apoorv Dixit to Everyone:
+	done
+20:48:42 From Apoorv Dixit to Everyone:
+	yes
+20:50:31 From Mariyan Georgiev to Everyone:
+	Done yesterday
+20:50:44 From Azad Singh to Everyone:
+	Replying to "Done yesterday"
+	
+	+1
+20:51:15 From Kamal Bhatt to Everyone:
+	done
+20:51:30 From Kamal Bhatt to Everyone:
+	BRB in 5 min
+20:51:32 From Mansi Gupta to Everyone:
+	done now
+20:52:00 From Alejandro Gomez to Everyone:
+	Yes I’ve done it yesterday
+20:52:08 From Pravesh Kumar Singh to Everyone:
+	done
+20:52:17 From Shawn Yu to Everyone:
+	Done
+20:52:25 From Ravi Rai to Everyone:
+	Done
+20:55:46 From Monica Gupta to Everyone:
+	PatchEg1
+20:55:49 From Alejandro Gomez to Everyone:
+	Patch is like an stash but that we can share right?
+20:56:25 From Alejandro Gomez to Everyone:
+	okay
+20:56:52 From Monica Gupta to Everyone:
+	PatchEg2
+20:57:28 From Monica Gupta to Everyone:
+	example4patch.txt
+20:58:07 From Monica Gupta to Everyone:
+	Hello, Git Patches!
+20:59:24 From Monica Gupta to Everyone:
+	https://github.com/monicag-gupta/NewRepoAris.git
+21:04:06 From Alejandro Gomez to Everyone:
+	Git push —force
+21:04:08 From Mansi Gupta to Everyone:
+	-f ?
+21:04:20 From Azad Singh to Everyone:
+	git push origin main --force
+21:05:58 From Monica Gupta to Everyone:
+	example4patch.txt
+21:06:41 From Monica Gupta to Everyone:
+	git add example4patch.txt
+21:06:56 From Monica Gupta to Everyone:
+	git commit -m "Added empty example4patch.txt before applying the patch"
+21:07:21 From Azad Singh to Everyone:
+	Git branch -m master main
+21:09:35 From Monica Gupta to Everyone:
+	gupta.monicag@gmail.com
+21:11:04 From Monica Gupta to Everyone:
+	Hello, Git Patches!	This is an updated line in example4patch.txt.
+21:11:40 From Monica Gupta to Everyone:
+	git add example4patch.txt	git commit -m "Updated example4patch.txt with a new line"
+21:12:13 From Apoorv Dixit to Everyone:
+	git log -oneline
+21:12:30 From Apoorv Dixit to Everyone:
+	--
+21:13:19 From Monica Gupta to Everyone:
+	git format-patch -1 HEAD
+21:14:05 From Monica Gupta to Everyone:
+	0001-Updated-example4patch.txt-with-a-new-line.patch
+21:14:45 From Kamal Bhatt to Everyone:
+	yes
+21:14:55 From Monica Gupta to Everyone:
+	git format-patch -1 HEAD --stdout > 0001-Updated-example4patch.txt.patch
+21:17:22 From Monica Gupta to Everyone:
+	git apply .\0001-Updated-example4patch.txt-with-a-new-line.patch
+21:22:16 From Sean Sweitzer to Everyone:
+	done
+21:22:46 From Monica Gupta to Everyone:
+	ForkEg11
+21:32:14 From vivek to Everyone:
+	Need to drop for some time to join an urgent meeting
+21:35:47 From Monica Gupta to Everyone:
+	https://github.com/markdown-it/markdown-it.github.io
+21:37:49 From Monica Gupta to Everyone:
+	https://github.com/monicag-gupta/markdown-it.github.io.git
+21:38:30 From Azad Singh to Everyone:
+	https://github.com/azadkanwar/markdown-it.github.io
+21:39:16 From Sean Sweitzer to Everyone:
+	https://github.com/sean-s77/markdown-it.github.io
+21:40:18 From Mariyan Georgiev to Everyone:
+	https://github.com/MariyanGeorgiev-anaxi/markdown-it.github.io.git
+21:40:44 From Pravesh Kumar Singh to Everyone:
+	https://github.com/thepraveshsingh/markdown-it.github.io
+21:42:23 From Monica Gupta to Everyone:
+	https://github.com/monicag-gupta/GitGitHubAristocrat
+21:43:54 From Monica Gupta to Everyone:
+	git clone https://github.com/monicag-gupta/markdown-it.github.io.git
+21:45:38 From Monica Gupta to Everyone:
+	git remote add upstream https://github.com/monicag-gupta/Project111.git
+21:46:49 From Mariyan Georgiev to Everyone:
+	Git remote -v ?
+21:47:11 From Monica Gupta to Everyone:
+	origin  https://github.com/monicag-gupta/markdown-it.github.io.git (fetch)	origin  https://github.com/monicag-gupta/markdown-it.github.io.git (push)	upstream        https://github.com/monicag-gupta/Project111.git (fetch)	upstream        https://github.com/monicag-gupta/Project111.git (push)
+21:47:29 From Monica Gupta to Everyone:
+	git remote -v
+21:47:59 From Monica Gupta to Everyone:
+	git checkout -b feature-adding-hello
+21:48:22 From Monica Gupta to Everyone:
+	test.js
+21:48:43 From Monica Gupta to Everyone:
+	console.log("Hello, Open Source World!");
+21:49:08 From Monica Gupta to Everyone:
+	git add test.js	git commit -m "Added a greeting message"	git push origin feature-adding-hello
+21:51:14 From Mariyan Georgiev to Everyone:
+	What was the difference between upstream and origin?
+21:52:43 From Monica Gupta to Everyone:
+	clone
+22:02:46 From Azad Singh to Everyone:
+	I have to attend a meeting, will check record video, thanks
+22:08:53 From Monica Gupta to Everyone:
+	git remote remove upstream
+22:11:14 From Mariyan Georgiev to Everyone:
+	done
+22:13:20 From Apoorv Dixit to Everyone:
+	done
+22:17:29 From Monica Gupta to Everyone:
+	git clone https://github.com/monicag-gupta/Project111.git
+22:18:58 From Monica Gupta to Everyone:
+	git remote add myfork https://github.com/monicag-gupta/library4Git.git
+22:20:47 From Monica Gupta to Everyone:
+	git fetch origin
+22:20:56 From Monica Gupta to Everyone:
+	git pull origin main
+22:21:10 From Monica Gupta to Everyone:
+	git fetch myfork
+22:21:20 From Monica Gupta to Everyone:
+	git pull myfork master
+22:21:46 From Monica Gupta to Everyone:
+	git pull myfork main
+22:24:17 From Mariyan Georgiev to Everyone:
+	git pull origin branchname --allow-unrelated-histories
+22:24:50 From Monica Gupta to Everyone:
+	git pull myfork main --allow-unrelated-histories
+22:26:48 From Monica Gupta to Everyone:
+	git push myfork main
+22:27:33 From Monica Gupta to Everyone:
+	git add .
+22:27:41 From Monica Gupta to Everyone:
+	git commit -m "Both repos together"
+22:28:27 From Monica Gupta to Everyone:
+	git push origin main
+22:28:44 From Monica Gupta to Everyone:
+	git remote remove myfork
+22:31:07 From Mariyan Georgiev to Everyone:
+	done
+22:31:15 From Apoorv Dixit to Everyone:
+	done
+22:31:31 From Pravesh Kumar Singh to Everyone:
+	done
+22:37:31 From Mansi Gupta to Everyone:
+	Break please after this
+22:38:01 From Monica Gupta to Everyone:
+	1. Fork (create a forked repo) from other owner’s repo to our userid	2. Clone the forked Repo in git	3. Add my own repo (as maybe upstream)	4. pull from upstream	5. push or contribute to forked Repo 		1. Multiple Repos : owned by me	2. From any repo pull	3. To any Repo push
+22:38:21 From Monica Gupta to Everyone:
+	break of 10 min: 10:50
+22:38:22 From Mansi Gupta to Everyone:
+	10:20 am
+22:38:27 From Monica Gupta to Everyone:
+	10:30
+22:38:34 From Mansi Gupta to Everyone:
+	No no come back time it is
+22:38:48 From Monica Gupta to Everyone:
+	10:20
+22:50:25 From Apoorv Dixit to Everyone:
+	back
+22:50:27 From Shawn Yu to Everyone:
+	back
+22:50:36 From Pravesh Kumar Singh to Everyone:
+	back
+22:50:58 From Mariyan Georgiev to Everyone:
+	back
+22:52:18 From Kamal Bhatt to Everyone:
+	back
+22:55:28 From Sean Sweitzer to Everyone:
+	--amend
+22:57:52 From Monica Gupta to Everyone:
+	git clone --depth <number> <repo-url>
+22:58:32 From Monica Gupta to Everyone:
+	git clone --depth 1 https://github.com/user/repository.git
+22:58:42 From Monica Gupta to Everyone:
+	git clone --depth 5 https://github.com/user/repository.git
+22:59:06 From Monica Gupta to Everyone:
+	git fetch --depth 1
+22:59:38 From Monica Gupta to Everyone:
+	https://github.com/jquery/jquery.git
+23:01:06 From Monica Gupta to Everyone:
+	git clone --depth 1 https://github.com/jquery/jquery.git
+23:01:37 From Monica Gupta to Everyone:
+	cd jquery
+23:01:46 From Monica Gupta to Everyone:
+	git log --oneline
+23:02:38 From Monica Gupta to Everyone:
+	git fetch --deepen=9
+23:03:24 From Monica Gupta to Everyone:
+	git fetch --unshallow
+23:05:45 From Monica Gupta to Everyone:
+	Commands:	Enable sparse checkout:	git sparse-checkout init	Define the directories you need:	git sparse-checkout set src/docs	Pull only the selected directories:	git pull origin main
+23:07:50 From Monica Gupta to Everyone:
+	https://github.com/github/gitignore.git
+23:08:11 From Monica Gupta to Everyone:
+	git clone --filter=blob:none --no-checkout https://github.com/github/gitignore.git
+23:08:35 From Monica Gupta to Everyone:
+	cd gitignore
+23:11:12 From Monica Gupta to Everyone:
+	git sparse-checkout init --no-cone
+23:11:40 From Monica Gupta to Everyone:
+	cat .git/info/sparse-checkout
+23:12:57 From Monica Gupta to Everyone:
+	git config core.sparseCheckoutCone
+23:14:30 From Monica Gupta to Everyone:
+	/Python.gitignore	/Node.gitignore
+23:15:07 From Monica Gupta to Everyone:
+	git read-tree -mu HEAD
+23:25:07 From Sean Sweitzer to Everyone:
+	sorry I have to drop for another meeting
+23:26:11 From Mariyan Georgiev to Everyone:
+	All good, thanks and see you tomorrow. Could you share the attendance link?
+23:26:25 From Monica Gupta to Everyone:
+	Hi Everyone,	Please fill in the attendance form. This is a mandatory part of the training.		https://forms.office.com/r/UQJtD45Wi9
+23:26:36 From Aakriti Talreja to Everyone:
+	Replying to "All good, thanks and..."
+	
+	+1
+23:27:12 From Shawn Yu to Everyone:
+	Thank you, see you tomorrow.
+23:27:45 From Pravesh Kumar Singh to Everyone:
+	It was informative session, thank you.
+23:28:03 From Mansi Gupta to Everyone:
+	Reacted to "It was informative s..." with 👍
+23:28:23 From Aakriti Talreja to Everyone:
+	Need to drop for some urgent stuff.
+23:28:25 From Kamal Bhatt to Everyone:
+	It was nice session. Please share todays chat
+23:29:25 From Ravi Rai to Everyone:
+	Thank you Monica, Very Informative Session.
+23:29:35 From Rishabh Aggarwal to Everyone:
+	It was good session Thanks Monica
+23:29:37 From Apoorv Dixit to Everyone:
+	Thank You, Good Session
+23:29:47 From Vivek Singh to Everyone:
+	Thanks for great session Monica!

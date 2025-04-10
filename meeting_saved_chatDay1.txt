@@ -1,0 +1,302 @@
+20:26:14 From K B Prabha to Everyone:
+	https://forms.office.com/r/UQJtD45Wi9
+20:33:25 From Monica Gupta to Everyone:
+	Attendance Link:	https://forms.office.com/r/UQJtD45Wi9
+20:34:21 From K B Prabha to Everyone:
+	Good evening all!  As is customary, please enter your training attendance in the below link.  	https://forms.office.com/r/UQJtD45Wi9	Monica will also share the link again for those who join in late or have not filled in at the start of the training.	Also, today being the first day of training, the pre questionnaire will be shared by Monica.  It is mandatory to complete the same so please cooperate.  Many thanks
+20:36:24 From Alejandro Gomez to Everyone:
+	Can we record the session?
+20:36:56 From Alejandro Gomez to Everyone:
+	Okay thanks!
+20:56:37 From Monica Gupta to Everyone:
+	Please find the pre-assessment link for your reference:	https://indicorpit.com/aristocrat-Github-pre-assessment
+20:57:42 From Monica Gupta to Everyone:
+	Participant can Login with their name and email id	Reverse clock will start automatically once participant login	One person can attempt assessment only once	Select your answer from the given options. Answer can be changed multiple times before final submission	After final submission participant can't go back to the previous screen	After Submission participants will be able to see tick against correct answers in case of wrong attempts
+21:01:32 From Monica Gupta to Everyone:
+	Attendance Link:	https://forms.office.com/r/UQJtD45Wi9
+21:01:47 From Mark Zulkiewicz to Everyone:
+	done
+21:02:17 From Rishabh Aggarwal to Everyone:
+	Done
+21:03:25 From Pravesh Kumar Singh to Everyone:
+	DONE
+21:03:40 From Bryan Wong to Everyone:
+	done
+21:03:56 From Ravi Rai to Everyone:
+	Done
+21:04:05 From Sean Sweitzer to Everyone:
+	Done
+21:04:12 From Monica Gupta to Everyone:
+	6/20
+21:04:33 From Apurv Mishra to Everyone:
+	Done
+21:04:34 From Apoorv Dixit to Everyone:
+	Done
+21:04:53 From Mariyan Georgiev to Everyone:
+	done
+21:05:09 From Azad Singh to Everyone:
+	done
+21:05:10 From Alejandro Gomez to Everyone:
+	done
+21:05:14 From Mansi Gupta to Everyone:
+	done
+21:05:16 From Kamal Bhatt to Everyone:
+	Done
+21:05:40 From Monica Gupta to Everyone:
+	13/20
+21:06:10 From vivek to Everyone:
+	I had to step out for few mins to drop my kids to school. Will finish soon
+21:06:18 From Pankaj Singh Bhandari to Everyone:
+	Done
+21:06:22 From roshni.kumari to Everyone:
+	Done
+21:06:54 From Monica Gupta to Everyone:
+	15/20
+21:07:33 From Indu Singh to Everyone:
+	done
+21:10:27 From Randy Kochis to Everyone:
+	done
+21:10:28 From Aakriti Talreja to Everyone:
+	Done
+21:29:25 From Alejandro Gomez to Everyone:
+	Need to drop for today
+21:37:08 From Monica Gupta to Everyone:
+	https://git-scm.com/downloads
+21:38:07 From Monica Gupta to Everyone:
+	git --version
+21:38:48 From Vivek Singh to Everyone:
+	done with assessment.
+21:38:52 From Apoorv Dixit to Everyone:
+	done
+21:39:08 From Apoorv Dixit to Everyone:
+	done git
+21:39:11 From Azad Singh to Everyone:
+	done
+21:39:14 From Indu Singh to Everyone:
+	done git
+21:39:15 From Rishabh Aggarwal to Everyone:
+	done
+21:39:16 From Apurv Mishra to Everyone:
+	Done git
+21:39:19 From Vivek Singh to Everyone:
+	done
+21:39:22 From Ravi Rai to Everyone:
+	Done Git
+21:39:22 From Pankaj Singh Bhandari to Everyone:
+	Done GIT
+21:39:25 From Pravesh Kumar Singh to Everyone:
+	done
+21:39:31 From Mariyan Georgiev to Everyone:
+	Done git
+21:39:33 From Sean Sweitzer to Everyone:
+	done
+21:39:47 From Randy Kochis to Everyone:
+	done git
+21:40:46 From Aakriti Talreja to Everyone:
+	Done git
+21:41:53 From Monica Gupta to Everyone:
+	C:\Users\<User>\Desktop\EgsGit\GitEgs111
+21:41:56 From Mansi Gupta to Everyone:
+	Done git
+21:43:13 From Monica Gupta to Everyone:
+	https://code.visualstudio.com/
+21:44:29 From Apoorv Dixit to Everyone:
+	Done VS
+21:44:31 From Mansi Gupta to Everyone:
+	done vs
+21:44:34 From Ravi Rai to Everyone:
+	Done VS
+21:44:39 From Rishabh Aggarwal to Everyone:
+	Done vs
+21:44:41 From Apurv Mishra to Everyone:
+	Done vs
+21:44:52 From Randy Kochis to Everyone:
+	done
+21:45:06 From Mariyan Georgiev to Everyone:
+	Done vs
+21:45:07 From Bryan Wong to Everyone:
+	done vs
+21:46:05 From Aakriti Talreja to Everyone:
+	Done VS
+21:46:42 From Sean Sweitzer to Everyone:
+	done VS
+21:47:14 From Monica Gupta to Everyone:
+	git config --global user.name "Monica Gupta
+21:47:22 From Monica Gupta to Everyone:
+	git config --global user.name "Monica Gupta"
+21:47:47 From Monica Gupta to Everyone:
+	cd .\GitEgs111\
+21:48:14 From Rahul Khare to Everyone:
+	can someone please share the link to the pre assessment?
+21:48:29 From Monica Gupta to Everyone:
+	Please find the pre-assessment link for your reference:		https://indicorpit.com/aristocrat-Github-pre-assessment.
+21:48:34 From Rahul Khare to Everyone:
+	thank you
+21:50:59 From Monica Gupta to Everyone:
+	git config --global user.email  "<mailID>"
+21:51:52 From Azad Singh to Everyone:
+	Git config —list
+21:52:42 From Monica Gupta to Everyone:
+	git config --list
+21:53:47 From Monica Gupta to Everyone:
+	git config --global core.editor code --wait
+21:54:24 From Aakriti Talreja to Everyone:
+	Got this error
+21:57:56 From Monica Gupta to Everyone:
+	Set-ExecutionPolicy RemoteSigned
+21:59:04 From Monica Gupta to Everyone:
+	A
+22:03:09 From Monica Gupta to Everyone:
+	git config user.name
+22:04:41 From Indu Singh to Everyone:
+	I couldn't do it as well
+22:09:08 From Monica Gupta to Everyone:
+	Set-ExecutionPolicy RemoteSigned
+22:14:29 From Monica Gupta to Everyone:
+	10 min break
+22:14:41 From Randy Kochis to Everyone:
+	thanks
+22:14:45 From Mansi Gupta to Everyone:
+	9:55 am
+22:14:50 From Mansi Gupta to Everyone:
+	After break
+22:14:50 From Monica Gupta to Everyone:
+	10:25
+22:14:56 From Aakriti Talreja to Everyone:
+	Reacted to "10:25" with 👍
+22:15:02 From Ravi Rai to Everyone:
+	Reacted to "10:25" with 👍
+22:23:59 From Kamal Bhatt to Monica Gupta(direct message):
+	please share command to run in power shell
+22:24:08 From Monica Gupta to Kamal Bhatt(direct message):
+	Set-ExecutionPolicy RemoteSigned
+22:24:08 From Kamal Bhatt to Monica Gupta(direct message):
+	my system gets restarted
+22:24:55 From Monica Gupta to Kamal Bhatt(direct message):
+	no problems..it does restart many times when we run powershell in admin mode..
+22:25:11 From Kamal Bhatt to Monica Gupta(direct message):
+	then yes to all ?
+22:27:08 From Rahul Khare to Everyone:
+	back
+22:27:08 From Ravi Rai to Everyone:
+	back
+22:27:09 From Bryan Wong to Everyone:
+	back
+22:27:09 From Sean Sweitzer to Everyone:
+	back
+22:27:10 From Apoorv Dixit to Everyone:
+	back
+22:27:10 From Indu Singh to Everyone:
+	back
+22:27:11 From Pravesh Kumar Singh to Everyone:
+	back
+22:27:21 From Randy Kochis to Everyone:
+	back
+22:27:21 From Vivek Singh to Everyone:
+	back
+22:27:35 From Aakriti Talreja to Everyone:
+	back
+22:27:36 From Apurv Mishra to Everyone:
+	back
+22:31:48 From Monica Gupta to Everyone:
+	git init
+22:36:22 From Monica Gupta to Everyone:
+	https://github.com/
+22:37:05 From Monica Gupta to Everyone:
+	GitEgs111
+22:40:21 From Rishabh Aggarwal to Everyone:
+	Thanks Monica . I’m leaving now. Need to join another meeting
+22:46:50 From Monica Gupta to Everyone:
+	1. Setting Up a Repository : Initializes a new Git repository in the current directory.	git init	2. Cloning a Repository :  Clones an existing repository into a new directory.	git clone <repository-url>	3. Checking Repository Status : Shows the state of the working directory and staging area.	git status	4. Adding Files to Staging Area : Stages changes for the next commit.	git add <file>	5. Committing Changes : Saves changes in the local repository.	git commit -m "Commit message"	6. Checking Commit History : Displays the commit history.	git log
+22:46:59 From Monica Gupta to Everyone:
+	7. Pushing Changes to Remote Repository : Sends local commits to the remote repository.	git push origin main	8. Pulling Changes from Remote Repository : Fetches and merges changes from the remote repository.	git pull origin main	9. Creating a New Branch : Creates a new branch named feature-branch.	git branch feature-branch	10. Switching Between Branches : Switches to the branch feature-branch.	git checkout feature-branch	11. Merging Changes : Merges the changes from feature-branch into the current branch.	git merge feature-branch	12. Deleting a Branch : Deletes the branch feature-branch.	git branch -d feature-branch	13. Stashing Changes : Temporarily saves changes without committing them.	git stash	14. Restoring Stashed Changes : Restores the most recent stashed changes.	git stash pop
+22:54:17 From Monica Gupta to Everyone:
+	TFS Command	Git Equivalent	Description	tf checkout <file>	git add <file>	Stages the file for commit	tf checkin	git commit + git push	Commits changes to the repository	tf undo	git checkout -- <file> or git reset	Discards changes	tf get	git pull	Updates the working copy with the latest version	tf branch	git branch	Creates a new branch	tf merge	git merge	Merges branches	tf resolve	git merge --continue	Resolves merge conflicts	tf history	git log	Displays commit history
+22:55:56 From Monica Gupta to Everyone:
+	git add .
+22:56:10 From Monica Gupta to Everyone:
+	git commit -m "Initial commit from TFS"
+22:56:30 From Monica Gupta to Everyone:
+	Step 1: Export Code from TFS	Open the TFS command prompt or use Visual Studio. Navigate to the project folder:	cd path/to/project	Export code:	tf get	Step 2: Initialize a Git Repository	Go to the project folder. Initialize a new Git repository:	git init	Step 3: Add Files to Git Repository 	Stage files for commit:	git add .	Commit files:	git commit -m "Initial commit from TFS"
+22:56:43 From Monica Gupta to Everyone:
+	Step 4: Connect to Remote Git Repository	Create a new repository on GitHub or GitLab. Add the remote repository:	git remote remove origin	git remote add origin <repository-url>	git remote add origin https://github.com/monicag-gupta/gitAristrocat.git	Push to the remote repository:	git push origin --force HEAD:main	Step 5: Verify Migration	Check the repository status:	git status	Check the commit history:	git log
+22:57:52 From Monica Gupta to Everyone:
+	main : GitHub
+22:57:57 From Monica Gupta to Everyone:
+	master : Git
+22:59:23 From Monica Gupta to Everyone:
+	ugit checkout -b develop main
+22:59:29 From Monica Gupta to Everyone:
+	git checkout -b develop main
+23:00:00 From Monica Gupta to Everyone:
+	git remote add origin https://github.com/monicag-gupta/Project111.git
+23:01:09 From Monica Gupta to Everyone:
+	git remote add origin https://github.com/monicag-gupta/Project111.git
+23:05:47 From Monica Gupta to Everyone:
+	git checkout -b feature-login
+23:06:23 From Monica Gupta to Everyone:
+	feature.txt
+23:06:41 From Monica Gupta to Everyone:
+	New feature
+23:07:07 From Monica Gupta to Everyone:
+	git add feature.txt
+23:07:34 From Monica Gupta to Everyone:
+	git commit -m "Add login feature"
+23:09:06 From Monica Gupta to Everyone:
+	git push origin feature-login
+23:12:51 From Mansi Gupta to Everyone:
+	done
+23:12:54 From Mark Zulkiewicz to Everyone:
+	done
+23:13:02 From Pankaj Singh Bhandari to Everyone:
+	done
+23:13:15 From Pravesh Kumar Singh to Everyone:
+	done
+23:13:26 From Apurv Mishra to Everyone:
+	done
+23:13:27 From Bryan Wong to Everyone:
+	done
+23:13:35 From Aakriti Talreja to Everyone:
+	Got error
+23:14:02 From Monica Gupta to Everyone:
+	git add .
+23:25:42 From Monica Gupta to Everyone:
+	1. Create a new feature branch:	git checkout -b feature-login	2. Make changes to files:	echo "New feature" >> feature.txt	git add feature.txt	git commit -m "Add login feature"	3. Push to remote:	git push origin feature-login	4. Create a pull request on GitHub.	5. Merge pull request:	git checkout main	git merge feature-login	6. Delete the branch:	git branch -d feature-login
+23:26:23 From Monica Gupta to Everyone:
+	git checkout main
+23:28:32 From Monica Gupta to Everyone:
+	git checkout -b main
+23:30:35 From Monica Gupta to Everyone:
+	git merge feature-login
+23:30:55 From Monica Gupta to Everyone:
+	git branch -d feature-login
+23:31:10 From Rahul Khare to Everyone:
+	need to drop off for other meetings, thank you
+23:38:10 From Randy Kochis to Everyone:
+	it's good for me
+23:38:10 From Mark Zulkiewicz to Everyone:
+	pace was good, please keep it
+23:38:25 From Aakriti Talreja to Everyone:
+	+1
+23:38:25 From Kamal Bhatt to Monica Gupta(direct message):
+	it was good.
+23:38:31 From Mansi Gupta to Everyone:
+	Reacted to "pace was good, pleas..." with 👍
+23:39:07 From Monica Gupta to Everyone:
+	Attendance Link:	https://forms.office.com/r/UQJtD45Wi9
+23:39:11 From Pravesh Kumar Singh to Everyone:
+	Attendance: https://forms.office.com/r/UQJtD45Wi9
+23:39:48 From Aakriti Talreja to Everyone:
+	done
+23:40:04 From Aakriti Talreja to Everyone:
+	it was good session
+23:40:08 From Pankaj Singh Bhandari to Everyone:
+	Thanks for the session.
+23:40:16 From Apoorv Dixit to Everyone:
+	it was a good session
+23:40:19 From Apoorv Dixit to Everyone:
+	thanks
+23:40:28 From Indu Singh to Everyone:
+	Nice session, Thanks !
+23:40:32 From Mariyan Georgiev to Everyone:
+	Good session, keep the pace
