@@ -1,0 +1,266 @@
+20:31:23 From Monica Gupta to Everyone:
+	https://aristocrat.zoom.us/j/94661949686
+20:33:25 From Monica Gupta to Everyone:
+	Hi Everyone,	Please fill in the attendance form. This is a mandatory part of the training.		https://forms.office.com/r/UQJtD45Wi9
+20:34:37 From Ashna Grover to Everyone:
+	ashna.grover@aristocrat.com
+20:35:04 From Apoorv Dixit to Everyone:
+	Please share the recording as well
+20:35:11 From Apoorv Dixit to Everyone:
+	4th and 5th day
+20:36:13 From Vishakha Garg to Everyone:
+	Hi, due to helath issue i was on leave for 4th and 5 th day traing, plz share recrdings for me too
+20:36:20 From Vishakha Garg to Everyone:
+	Its Vishakha.garg@anaxi.com
+20:36:45 From Monica Gupta to Everyone:
+	aakriti.talreja@aristocrat.com,	mark.zulkiewicz@aristocrat.com,	Vishakha.garg@anaxi.com
+20:42:44 From Pravesh singh to Everyone:
+	Please share the attendance link
+20:42:53 From Monica Gupta to Everyone:
+	mkdir sparseEg2
+20:43:02 From Monica Gupta to Everyone:
+	cd sparseEg2
+20:43:07 From Monica Gupta to Everyone:
+	git init
+20:43:17 From Mariyan Georgiev to Everyone:
+	https://forms.office.com/r/UQJtD45Wi9
+20:43:40 From Monica Gupta to Everyone:
+	Hi Everyone,	Please fill in the attendance form. This is a mandatory part of the training.		https://forms.office.com/r/UQJtD45Wi9
+20:44:53 From Monica Gupta to Everyone:
+	git clone --filter=blob:none --no-checkout --sparse  https://github.com/github/gitignore.git
+20:46:06 From Monica Gupta to Everyone:
+	cd .\gitignore\
+20:46:23 From Monica Gupta to Everyone:
+	git sparse-checkout init --cone
+20:46:42 From Monica Gupta to Everyone:
+	git sparse-checkout disable
+20:47:04 From Monica Gupta to Everyone:
+	git sparse-checkout init --cone
+20:47:47 From Monica Gupta to Everyone:
+	Check the folders in the repository:	git ls-tree -d --name-only HEAD
+20:48:03 From Monica Gupta to Everyone:
+	git ls-tree -d --name-only HEAD
+20:48:37 From Monica Gupta to Everyone:
+	git sparse-checkout set Global community
+20:49:43 From Monica Gupta to Everyone:
+	git config core.sparseCheckoutCone
+20:49:48 From Monica Gupta to Everyone:
+	true
+20:49:57 From RISHABH AGGARWAL to Everyone:
+	Reacted to true with "👍"
+20:50:12 From Pravesh singh to Everyone:
+	Reacted to "true" with 👍
+20:50:24 From RISHABH AGGARWAL to Everyone:
+	Removed a 👍 reaction from "true"
+20:50:26 From RISHABH AGGARWAL to Everyone:
+	Reacted to true with "👍"
+20:50:38 From Monica Gupta to Everyone:
+	git checkout main
+20:51:12 From Monica Gupta to Everyone:
+	git read-tree -mu HEAD
+20:52:45 From Sean Sweitzer to Everyone:
+	done
+20:52:47 From Apoorv Dixit to Everyone:
+	done
+20:52:56 From Ravi Rai to Everyone:
+	done
+20:53:21 From RISHABH AGGARWAL to Everyone:
+	Done
+20:53:37 From Pravesh singh to Everyone:
+	done
+20:55:24 From Pravesh singh to Everyone:
+	yes
+20:59:47 From Monica Gupta to Everyone:
+	https://git-lfs.github.com
+21:01:00 From Monica Gupta to Everyone:
+	git lfs install
+21:01:28 From Pankaj Singh Bhandari to Everyone:
+	Sorry, I need to drop off for my next call. Will rejoin after 30 minutes
+21:01:52 From Ravi Rai to Everyone:
+	Done
+21:03:11 From Monica Gupta to Everyone:
+	git lfs track "*.zip"	git lfs track "*.mp4"	git lfs track "*.csv"
+21:04:01 From Apoorv Dixit to Everyone:
+	done
+21:05:31 From Monica Gupta to Everyone:
+	data/bigfile.csv video/tutorial.mp4 archive/tools.zip	Rename file_example_CSV_5000.csv to data/bigfile.csv :	mkdir data	mv file_example_CSV_5000.csv data/bigfile.csv	Rename file_example_MP4_1280_10MG.mp4 to video/tutorial.mp4 	mkdir video	mv file_example_MP4_1280_10MG.mp4 video/tutorial.mp4 	Rename zip_10MB.zip to archive/tools.zip	mkdir archive	mv zip_10MB.zip archive/tools.zip
+21:05:55 From Monica Gupta to Everyone:
+	git add .gitattributes
+21:06:02 From Kamal to Everyone:
+	Need to drop joining back in few mins
+21:07:35 From Monica Gupta to Everyone:
+	git add .\file_example_CSV_5000.csv .\file_example_MP4_1280_10MG.mp4 .\zip_10MB.zip
+21:07:59 From Monica Gupta to Everyone:
+	git commit -m "Add large files via Git LFS"
+21:09:01 From Monica Gupta to Everyone:
+	git remote add origin https://github.com/monicag-gupta/library4Git.git
+21:09:25 From Monica Gupta to Everyone:
+	git push origin main
+21:10:18 From Monica Gupta to Everyone:
+	git branch -m master main
+21:10:34 From Monica Gupta to Everyone:
+	git push origin main --force
+21:11:14 From Monica Gupta to Everyone:
+	git lfs untrack "*.zip"
+21:11:40 From Monica Gupta to Everyone:
+	git rm --cached *.zip
+21:11:51 From Monica Gupta to Everyone:
+	git commit -m "Stop tracking zip files"
+21:13:25 From Monica Gupta to Everyone:
+	git gc --aggressive --prune=now
+21:13:38 From Sean Sweitzer to Everyone:
+	done
+21:13:44 From Apoorv Dixit to Everyone:
+	done
+21:13:55 From Monica Gupta to Everyone:
+	git lfs ls-files
+21:16:43 From RISHABH AGGARWAL to Everyone:
+	Done
+21:25:15 From Alejandro Gomez to Everyone:
+	I will need to drop again sadly, pls send the recording when finish  I will be seeing this one,  thanks for the course if we don’t see again
+21:27:46 From Monica Gupta to Everyone:
+	Feature Tracker
+21:35:18 From Monica Gupta to Everyone:
+	XAML
+21:35:28 From Monica Gupta to Everyone:
+	YAML
+21:36:31 From Monica Gupta to Everyone:
+	Project112
+21:37:11 From Monica Gupta to Everyone:
+	mkdir MyWebProject
+21:37:37 From Monica Gupta to Everyone:
+	cd MyWebProject
+21:37:54 From Monica Gupta to Everyone:
+	git init
+21:38:09 From Monica Gupta to Everyone:
+	git remote add origin https://github.com/monicag-gupta/Project112.git
+21:38:41 From Monica Gupta to Everyone:
+	git checkout -b main
+21:39:08 From Monica Gupta to Everyone:
+	index.html	style.css	script.js
+21:39:48 From Monica Gupta to Everyone:
+	<!DOCTYPE html>	<html>	<head>	  <title>My Website</title>	  <link rel="stylesheet" href="style.css">	</head>	<body>	  <h1>Welcome to My Website</h1>	  <script src="script.js"></script>	</body>	</html>
+21:40:02 From Monica Gupta to Everyone:
+	body {	    font-family: Arial, sans-serif;	    background-color: #f5f5f5;	    text-align: center;	  }
+21:40:18 From Monica Gupta to Everyone:
+	console.log("Hello from script.js");
+21:40:34 From Monica Gupta to Everyone:
+	npm init -y
+21:40:55 From Aakriti Talreja to Everyone:
+	power cut issue, taking the training from phone.
+21:41:24 From Monica Gupta to Everyone:
+	npm install eslint --save-dev
+21:42:09 From Monica Gupta to Everyone:
+	npx eslint --init
+21:44:09 From Monica Gupta to Everyone:
+	mkdir -p .github/workflows
+21:44:23 From Monica Gupta to Everyone:
+	ci.yml
+21:45:07 From Monica Gupta to Everyone:
+	name: CI for Simple JS Website		on:	  push:	    branches: [main]	  pull_request:	    branches: [main]		jobs:	  build:	    runs-on: ubuntu-latest		    steps:	      - name: Checkout repository	        uses: actions/checkout@v3		      - name: Setup Node.js	        uses: actions/setup-node@v3	        with:	          node-version: '20'		      - name: Install dependencies	        run: |	          if [ -f package.json ]; then	            npm install	          else	            echo "No package.json found. Skipping npm install."	          fi		      - name: Run linter (optional)	        run: |	          if [ -f package.json ]; then	            npm run lint || echo "Lint failed"	          fi		      - name: Run tests (optional)	        run: |	          if [ -f package.json ]; then	            npm test || echo "Tests failed"	          fi		      - name: Build website	        run: |	          echo "No build step needed for static site"
+21:49:20 From Monica Gupta to Everyone:
+	git add .
+21:49:41 From Monica Gupta to Everyone:
+	git commit -m "Initial commit with CI workflow"
+21:50:08 From Monica Gupta to Everyone:
+	git push -u origin main
+21:54:36 From Sean Sweitzer to Everyone:
+	done
+21:57:54 From Monica Gupta to Everyone:
+	mkdir bisect-html
+21:58:12 From Monica Gupta to Everyone:
+	cd bisect-html
+21:58:29 From Monica Gupta to Everyone:
+	git init
+21:59:05 From Monica Gupta to Everyone:
+	index.html
+21:59:24 From Monica Gupta to Everyone:
+	<!-- index.html -->	<!DOCTYPE html>	<html>	<head>	  <title>My Site</title>	</head>	<body>	  <h1>Welcome to My Website</h1>	  <a href="contact.html">Contact Us</a>	</body>	</html>
+21:59:53 From Monica Gupta to Everyone:
+	git add index.html	git commit -m "Initial working version of index.html"
+22:00:38 From Monica Gupta to Everyone:
+	<!-- index.html -->	<!DOCTYPE html>	<html>	<head>	  <title>My Site</title>	</head>	<body>	  <h1>Welcome to My Website</h1>	  <a href="contact.html">Contact Us</a>	  <!-- About page added -->	</body>	</html>
+22:01:17 From Monica Gupta to Everyone:
+	git commit -am "Add comment about About page"
+22:02:02 From Monica Gupta to Everyone:
+	<!-- index.html -->	<!DOCTYPE html>	<html>	<head>	  <title>My Site</title>	</head>	<body>	  <h1>Welcome to My Website</h1>	  <a href="contact.html">Contact Us</a>	  <!-- About page added -->	  <footer>All rights reserved.</footer>		</body>	</html>
+22:02:30 From Monica Gupta to Everyone:
+	git commit -am "Add footer to the page"
+22:02:38 From Monica Gupta to Everyone:
+	git tag v1.0
+22:03:18 From Monica Gupta to Everyone:
+	git commit -am "Remove contact link by mistake"
+22:03:42 From Monica Gupta to Everyone:
+	<!-- index.html -->	<!DOCTYPE html>	<html>	<head>	  <title>My Site</title>	</head>	<body>	  <h1>Welcome to My Website</h1>		  <!-- About page added -->	  <footer>All rights reserved.</footer>	  <p>New feature coming soon!</p>		</body>	</html>
+22:04:07 From Monica Gupta to Everyone:
+	git commit -am "Add announcement"
+22:04:43 From Monica Gupta to Everyone:
+	cat index.html | findstr "Contact Us"
+22:05:09 From Monica Gupta to Everyone:
+	git bisect start
+22:05:24 From Monica Gupta to Everyone:
+	git bisect bad
+22:05:47 From Monica Gupta to Everyone:
+	git bisect good v1.0
+22:06:28 From Monica Gupta to Everyone:
+	cat index.html | findstr "Contact Us"
+22:06:51 From Monica Gupta to Everyone:
+	git bisect bad
+22:07:30 From Monica Gupta to Everyone:
+	git bisect reset
+22:09:07 From Apoorv Dixit to Everyone:
+	done
+22:09:15 From Sean Sweitzer to Everyone:
+	done
+22:09:19 From Monica Gupta to Everyone:
+	git blame index.html
+22:10:31 From Monica Gupta to Everyone:
+	git blame shows you:	Line-by-line changes of a file	Who made each change	When they made it	What the commit hash was
+22:12:15 From Monica Gupta to Everyone:
+	Limit to specific lines	git blame -L 5,8 index.html	This shows blame info for lines 5 to 8 only.	Ignore whitespace-only changes	git blame -w index.html	This ignores commits where only whitespace was changed, like indentation or trailing spaces.	Blame since a specific revision	git blame HEAD~2 index.html	Only shows blame starting from 2 commits ago.	Reverse blame (experimental)	git blame --reverse HEAD~3..HEAD index.html	Shows the first commit that added lines in that range (not who last modified them). Useful to trace origin.	Only show lines changed by a specific author	git blame --author="Monica Gupta" index.html	Shows only the lines where Monica Gupta is the last person to touch them.
+22:13:11 From Monica Gupta to Everyone:
+	Show commits in raw format (with filenames)	git blame --porcelain index.html	Outputs detailed blame info in a parseable format — great for scripting.	See commits affecting a function (code)	For code (e.g., .js, .py), this works better:	git blame -L :someFunction:script.js	Tip: Combine with git show or git log	Take a hash from git blame output:	git log --oneline	git show 2039eaa 	To see the exact commit that introduced that change.
+22:14:06 From Monica Gupta to Everyone:
+	1. One-line summary of commits	git log --oneline	2. Visualize branch history	git log --oneline --graph --all	Visualizes branching and merging history using ASCII art.	3. Filter by author	git log --author="Monica Gupta"	Shows only commits made by Monica Gupta.	4. Show commits affecting a specific file	git log index.html	Great for tracing the history of a specific file.	5. Show changed files in each commit	git log --stat	This adds a summary of what files changed and how many lines were added or removed.
+22:14:26 From Monica Gupta to Everyone:
+	6. Filter by date	git log --since="2025-04-01"	Or:	git log --after="2025-04-01" --before="2025-04-05"	7. Show full patch (diff) with each commit	git log -p	Each commit includes the actual line-by-line changes made.	8. Custom format output	git log --pretty=format:"%h - %an, %ar : %s"	Shows: Short hash, Author name, How long ago, Commit message
+22:15:19 From Monica Gupta to Everyone:
+	git log --pretty=format:"%h - %an, %ar : %s"
+22:16:00 From Monica Gupta to Everyone:
+	https://www.atlassian.com/software/jira
+22:28:20 From Monica Gupta to Everyone:
+	STEP 1: Sign up & Set up Jira (Cloud)	Go to: https://www.atlassian.com/software/jira	Click “Get it free” → Choose Jira Software (Cloud).	Sign in with your email or Google account.	Choose a project name and project type (Scrum/Kanban/Team-managed).	Note your Jira URL:	Example: https://your-company.atlassian.net	STEP 2: Connect GitHub to Jira	In Jira, go to:	Settings → Apps → Explore More Apps	Search for “GitHub for Jira”, click Install.	Authorize with GitHub.	Select the organization and repositories to connect.	Now Jira is connected with GitHub	Verify Smart Commits Are Active Automatically	Once GitHub for Jira is connected:	Smart Commits are enabled by default for those linked repositories.	STEP 3: Create an Issue in Jira	Click the “Create” button (top navbar)	Fill details:	Project: Your Jira project	Issue type: Task/Bug/Story	Summary: "Create login form"	Click Create	Note the issue key, e.g., PROJ-123
+22:28:22 From Monica Gupta to Everyone:
+	STEP 4: Make a Code Change & Smart Commit in VS Code	Create a file:	echo "console.log('Hello Jira');" > index.js	Add & commit with Smart Commit message:	git add .	git commit -m "PROJ-123: Added hello message #comment Initial commit #time 1h #transition In Progress"	git push origin main	Jira will:	Show the commit in the issue under Development	Log 1 hour in Time tracking	Add your comment	Change issue status to In Progress	STEP 5: Verify in Jira	Open the issue PROJ-123	Scroll to Development panel:	Commit should appear	Your comment and time tracking should be visible	Status should update to "In Progress" if #transition used		Done! You now have:	A Jira Cloud project	GitHub repo linked	Issues created	Git working in VS Code	Smart Commit working with Jira
+22:29:07 From Monica Gupta to Everyone:
+	https://gpg4win.org/
+22:30:05 From Monica Gupta to Everyone:
+	gpg --full-generate-key
+22:30:52 From Monica Gupta to Everyone:
+	Open cmd as Administrator:	gpg --full-generate-key		You’ll be prompted for:	Key type: choose RSA and RSA (default)	Key size: 4096 bits	Key expiry: set as you wish (e.g., 1y)	Real name and email (use the same email as your GitHub account)	Passphrase: choose a secure one
+22:31:11 From Monica Gupta to Everyone:
+	gpg --list-secret-keys --keyid-format=long
+22:33:12 From Monica Gupta to Everyone:
+	gpg --armor --export 5EC4BCD7313A2261
+22:35:52 From Monica Gupta to Everyone:
+	git config --global user.signingkey 5EC4BCD7313A2261
+22:37:11 From Monica Gupta to Everyone:
+	git config --global commit.gpgsign true
+22:37:36 From Monica Gupta to Everyone:
+	git config --global gpg.program "C:/Program Files (x86)/GnuPG/bin/gpg.exe"
+22:38:51 From Monica Gupta to Everyone:
+	git config --global user.name "Monica Gupta"	git config --global user.email "gupta.monicag@gmail.com"
+22:39:17 From Monica Gupta to Everyone:
+	git config list
+22:40:16 From Monica Gupta to Everyone:
+	git clone https://github.com/monicag-gupta/Project112.git
+22:41:04 From Monica Gupta to Everyone:
+	echo "Test GPG commit" >> test.txt	git add test.txt	git commit -S -m "Add signed test commit"
+23:02:05 From Monica Gupta to Everyone:
+	Please find attached the post assessment link for your reference which needs to be conducted on 10th April.		https://indicorpit.com/aristocrat-Github-post-assessment
+23:02:14 From Monica Gupta to Everyone:
+	Hi Everyone,	Please fill in the attendance form. This is a mandatory part of the training.		https://forms.office.com/r/UQJtD45Wi9
+23:02:34 From Ravi Rai to Everyone:
+	Done Attendance
+23:02:40 From Monica Gupta to Everyone:
+	Good Morning!		Please find attached the post assessment link for your reference which needs to be conducted on 10th April.		https://indicorpit.com/aristocrat-Github-post-assessment
